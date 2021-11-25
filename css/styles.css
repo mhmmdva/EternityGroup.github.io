@@ -69,7 +69,7 @@ body{
 
 .logo-text{  
 	/* masuk ke TEXT group */
-	color: rgb(0, 153, 255);
+	color: #474e6d;
 	font-size: 16px;
 	font-weight: 100;
 	
@@ -194,115 +194,6 @@ body{
   } 
 
 /*-------MAIN-------*/
-
-
-
-/* =======================BAGIAN CONTACT FORM */
-
-
-.link-contact{
-    text-decoration: none;
-    margin-left: 20px;
-  }
-  
-  .link-contact:hover{
-    text-decoration: none;
-  }
-  
-  form {
-    width: 720px;
-    height: 550px;   
-    border: 1px solid #858585;
-    margin: 20px;
-    margin-left: 300px;
-    margin-bottom: 200px;
-   
-  
-  }
-  
-  .form input {
-    width: 300px;
-    
-  }
-  .form .body-form ,input button{
-  margin-left: 50px;
-  
-  
-  }
-  .bodyText h1 {
-  padding: 36px;
-  text-align: center;
-  font-size: 32px;
-  font-weight: bolder;
-  
-  
-  }
-  .bodyText img {
-  width: 180px;
-  position: absolute;
-  margin-left: 120px;
-  margin-top: 10px;
-  }
-  
-  .fname .fname-int, input{
-  float: left;
-  /* margin-right: 20px; */
-  height: 30px;
-  border: none;
-  border-bottom: 1px solid #858585;
-  padding-left: 12px;
-  font-weight: 600;
-  }		
-  
-  .femail .femail-int, input{
-  float: none;
-  height: 30px;
-  
-    
-  }
-  
-  .fnomor .fnomor-int, input{
-  width: 200px;
-  float: left;
-  margin-right: 20px;
-  height: 30px;
-  }
-  
-  .fask .fask-int, input {
-  float: none;
-  width: 400px;
-  height: 30px;
-  }
-  
-  .fpesan .fpesan-int, input {
-  width: 620px;	
-  font-weight: 600;
-  }
-
-  .fpesan .fpesan-int{
-    padding-left: 12px;
-    padding-top: 12px;
-    line-height: 24px;
-    text-align: justify;
-  }
-  
-  .fpesan, input , .fpesan-int{
-  height: 250px;
-  margin-bottom: 20px;
-  line-height: 24px;
-  text-align: justify;
-  }
-  
-  .btn-Kirim {
-    width: 400px;
-    margin-left: 120px;  
-	font-weight: 600;
-  }
-
-/* =======================BAGIAN CONTACT FORM */
-
-
-
 
 
 
