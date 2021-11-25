@@ -13,6 +13,8 @@
 }
 
 form {
+  background-image: url(/img/bg_contact.png);
+  background-size: cover;
   width: 720px;
   height: 550px;   
   border: 1px solid #858585;

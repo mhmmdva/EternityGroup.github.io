@@ -228,11 +228,14 @@
     }
 
     form {
+      background-image: url(/img/bg_contact.png);
+      background-size: cover;
       width: auto;
-      height: auto 100%;   
-      background-color: #c4c4c4;
-      border: 2px solid #284ceb;
+      height: auto 100%;         
+      
+      border: 2px solid #474e6d;
       border-radius: 25px;
+      
       margin: 20px;
       margin-bottom: 200px;      
     }
@@ -254,10 +257,10 @@
     }
 
     .bodyText img {
-    width: 100px;
+    width: 150px;
     position: absolute;
-    margin-left: -20px;
-    margin-top: 12px;
+    margin-left: -30px;
+    margin-top: 0px;
     
     }
     
@@ -320,7 +323,13 @@
   .btn-Kirim {
     width: 200px;
     margin-left: 70px; 
-    margin-bottom: 0px ;
+    margin-bottom: 0px;
+    background-color:#474e6d;
+    border: none;
+  }
+  .btn-Kirim:hover {
+    
+    background-color:#2d3146;
   }
   }
 

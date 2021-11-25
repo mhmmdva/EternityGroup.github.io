@@ -77,7 +77,7 @@
 
 <!-- contact us -->
 
-<div class="alert alert-success alert-dismissible  fade show usAlert " role="alert">    
+<div class="alert alert-success alert-dismissible  fade show usAlert d-none" role="alert">    
   <span class="alertText">Terima kasih!</span> data yang telah anda berikan sudah masuk ke kami, di mohon untuk menunggu.
   
 </div>
@@ -104,13 +104,15 @@
                 </div>
                 <div class="form info fpesan">                        
                     <textarea class="fpesan-int" name="messg" placeholder="isi pesan untuk kami ..."></textarea>
+                    
                     <div class="form info">
                       <button type="submit" class="btn btn-primary btn-Kirim">Kirim</button>
                       <button type="submit" class="btn btn-primary d-none btn-Loading" disabled>
                           <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                           Loading...
                         </button>
-                  </div>
+                    </div>
+
                 </div>                
             </div>
     </div>
