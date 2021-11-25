@@ -18,7 +18,7 @@
   <!--slider show-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Quicksand:wght@402&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Cabin&family=Josefin+Sans&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Quicksand:wght@500&family=Raleway:wght@600&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@600&family=Varela+Round&display=swap" rel="stylesheet">
   
   
     <title>Hubungi Kami</title>
@@ -77,45 +77,46 @@
 
 <!-- contact us -->
 
-<div class="alert alert-success alert-dismissible  fade show usAlert d-none" role="alert">
-    <span class="alertText">Terima kasih!</span> data yang telah anda berikan sudah masuk ke kami, di mohon untuk menunggu.
-  </div>
-
-  <div class="alert alert-success alert-dismissible  fade show usAlert d-none" role="alert">
+<div class="alert alert-success alert-dismissible  fade show usAlert " role="alert">    
   <span class="alertText">Terima kasih!</span> data yang telah anda berikan sudah masuk ke kami, di mohon untuk menunggu.
+  
 </div>
-  <form name="submit-to-google-sheet">
+  
+  <form name="submit-to-google-sheet">    
+    <div class="container">
     <div id="form-us" class="form body-form">
         <div class="bodyText">
             <img src="./img/kartu-vaksin.png" alt="">
             <h1>Hubungi Kami</a></h1>
         </div>  
             <div class="form contact body-form">
-                <div class="form info fname">                        
+                <div class="form info fname">                                       
                     <input  class="fname-int" type="text" name="name" placeholder="Nama">
                 </div>
                 <div class="form info femail">                        
-                    <input class="femail-int" type="email" name="email" placeholder="covid19@gmail.com" required>
+                    <input class="femail-int" type="email" name="email" placeholder="Covid19@gmail.com" required>
                 </div>
                 <div class="form info fnomor">                        
-                    <input class="fnomor-int" type="text" name="number" placeholder="0823xxxxxx">
+                    <input class="fnomor-int" type="text" name="number" placeholder="0823 xxxx xxxx">
                 </div>
                 <div class="form info fask">                        
                     <input class="fask-int" type="text" name="tema" placeholder="Judul Pertanyaan">
                 </div>
                 <div class="form info fpesan">                        
-                    <textarea class="fpesan-int" name="messg" placeholder="isi pesan"></textarea>
+                    <textarea class="fpesan-int" name="messg" placeholder="isi pesan untuk kami ..."></textarea>
+                    <div class="form info">
+                      <button type="submit" class="btn btn-primary btn-Kirim">Kirim</button>
+                      <button type="submit" class="btn btn-primary d-none btn-Loading" disabled>
+                          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                          Loading...
+                        </button>
+                  </div>
                 </div>
 
-                <div class="form info">
-                    <button type="submit" class="btn btn-primary btn-Kirim">Kirim</button>
-                    <button type="submit" class="btn btn-primary d-none btn-Loading" disabled>
-                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                        Loading...
-                      </button>
-                </div>
+                
             </div>
     </div>
+  </div>
 </form>
 
   <!-- contact us -->
