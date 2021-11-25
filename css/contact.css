@@ -12,19 +12,20 @@
   text-decoration: none;
 }
 
-form {
-  background-image: url('./img/cuci_tangan.png');
-  background-size: cover;
-  
+
+.forms {
+  background-image: url(/img/bg_contact2.png);
+  background-size: contain;
   width: 720px;
   height: 550px;   
   border: 1px solid #858585;
   margin: 20px;
   margin-left: 300px;
   margin-bottom: 200px;
-  color: yellowgreen;
+  
 
 }
+
 
 .form input {
   width: 300px;
@@ -96,6 +97,8 @@ height: 250px;
 margin-bottom: 20px;
 line-height: 24px;
 text-align: justify;
+
+
 }
 
 .btn-Kirim {
