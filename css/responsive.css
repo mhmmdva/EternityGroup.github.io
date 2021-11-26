@@ -265,7 +265,7 @@
   }
   
 
-}  
+}   
 @media (max-width: 900px){
   .forms {
      
@@ -391,60 +391,132 @@
   }
   
   @media (max-width: 500px){
-    .slider .slide .info h2{
-      font-size: 1.8em;
-      line-height: 40px;
+      
+    .header-mainbg {    	    	    	
+    	width: 850px;  	
+    
     }
-  
-    .slider .slide .info p{
-      font-size: 0.9em;
-    }
-  
-    .main_footer{
-      display: list-item;
-    }
-  
-    .board {
-      column-count: 1;
-    }
-  }
 
-  @media (max-width: 427px){
-    .alert{
-      text-align: center;
-      padding-left: 40px;
-    }
-    .usAlert{
-      width: auto 100%;
-      
-    }
-    .alertText{
-      font-weight: 900;
-      
+     .header-logo{
+      padding: 0;
+      font-size: 44px;
     }
 
     .forms {
      
-      width: auto;
-      height: auto;         
+      width: 600px;
+      height: 590px;         
       
       border: 2px solid #474e6d;
       border-radius: 25px;
       
       margin: 30px;
       margin-bottom: 200px;      
+      margin-left: 125px;      
     }
+    
     .form input {
-      width: 330px;
+      width: 200px;
+    }
+    .fnomor .fnomor-int{     
+      margin-right: 20px;      
+    }
+    
+    .femail .femail-int{
+      width: 280px;
+    }
+    .fask .fask-int, input {    
+    width: 328px;
+    height: 30px;
+    
+    }
+    .fpesan .fpesan-int{
+      width: 500px;	
+      border: none;
+      background-color: #e4e4e4;
+      margin-top: 20px;
+    }
+    .btn-Kirim {
+      width: 200px;
       
-      margin-left: 4px;
-      color: white;
+      
+      background-color:#474e6d;
+      border: none;
+    }
+  .btn-Kirim:hover {    
+    background-color:#2d3146;
+  
+      
+  }
+
+}
+  @media (max-width: 427px){
+    .navbar {
+      margin-bottom: 48px;
+    }
+    
+    .logo-text{  
+      /* masuk ke TEXT group */
+      color: #474e6d;
+      font-size: 16px;
+      font-weight: 100;
+      
+    }
+    
+    .header-logo {
+      padding: 5px;
+      color: black;
+      font-size: 28px;
+      text-shadow: 0px 7px  rgb(156, 156, 156);
+      font-weight: bolder;
+    }
+      
+    .header-mainbg {
+      background-color: #C4C4C4;
+      padding: 0px;
+      top: 0px;
+      width: 100%;  	
+      
+    }
+
+
+    .alert{
+      text-align: center;
+      
+    }
+    .usAlert{
+      width: auto;
+      padding: 16px 0px 20px 5px;
+    }
+    .alertText{
+      font-weight: 900;
+    }
+
+    .forms {
+     
+      width: 320px;
+      height: 590px;         
+      
+      border: 2px solid #474e6d;
+      border-radius: 25px;
+      
+      margin: 30px;
+      margin-bottom: 200px;      
+      margin-left: 50px;      
+    }
+
+    .form input {
+      width: 260px;
+      color: black;
+      margin-top: 25px;
+      margin-left: 15px;
+  
     }
     .form .body-form ,input button{
     margin-left: 0px;        
     }
     .bodyText h1 {
-      padding: 20px 0px 10px 6px;    
+      padding: 20px 0px 10px 40px;    
       text-align: center;
       font-size: 30px;
       font-weight: bolder;                  
@@ -478,13 +550,14 @@
   transition: 1s;
 }
   
-  .femail .femail-int, input{
+  .femail .femail-int{
   float: none;
-  height: 30px;      
+  height: 30px;
+  width: 260px;
   }
   
   .fnomor .fnomor-int, input{
-    width: 330px;
+    width: 260px;
   float: left;
   margin-right: 20px;
   height: 30px;
@@ -492,15 +565,16 @@
   
   .fask .fask-int, input {
   float: none;
-  width: 330px;
+  width: 260px;
   height: 30px;
   }
   
   .fpesan .fpesan-int, input {
-    width: 330px;
+    margin-top: 25px;
+    width: 260px;
   height: 150px;
   color: black;
-  margin-left: 2px;
+  
   background-color: #e4e4e4;
   border: none;
   }
@@ -510,14 +584,14 @@
     padding-top: 12px;
     line-height: 24px;
     text-align: justify;
-    margin-left: 4px;
+    margin-left: 16px;
     
   }
 
   
   .btn-Kirim {
     width: 200px;
-    margin-left: 70px; 
+    margin-left: 50px; 
     margin-bottom: 0px;
     background-color:#474e6d;
     border: none;
@@ -525,6 +599,7 @@
   .btn-Kirim:hover {    
     background-color:#2d3146;
   }
+ 
   
 }
 
@@ -544,7 +619,13 @@
 
   @media (max-width: 360px){
 
-
+    .header-mainbg {
+      background-color: #C4C4C4;
+    
+      width: 100%;  	
+      
+    }
+    
     .header-mainbg img{
       margin-left: 20px;
       width: 46px;
@@ -553,21 +634,24 @@
       padding: 0;
       font-size: 24px;
     }
+    
     .alert{
       text-align: center;
       
     }
     .usAlert{
-      width: 380px;
+      width: auto;
+      padding: 16px 0px 20px 5px;
     }
     .alertText{
       font-weight: 900;
     }
-    form {
+    
+    .forms {
       width: auto;
       height: auto 100%;   
-      background-color: #c4c4c4;
-      border: 2px solid #284ceb;
+      
+      border: 2px solid #474e6d;
       border-radius: 25px;
       margin: 20px;
       margin-bottom: 200px;

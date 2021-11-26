@@ -3,6 +3,18 @@
 /* =======================BAGIAN CONTACT FORM */
 
 
+.alert{
+  text-align: center;
+  
+}
+.usAlert{
+  width: auto;
+  
+}
+.alertText{
+  font-weight: 900;
+}
+
 .link-contact{
   text-decoration: none;
   margin-left: 20px;
@@ -17,8 +29,9 @@
   background-image: url(/img/bg_contact2.png);
   background-size: contain;
   width: 700px;
-  height: 550px;   
-  border: 1px solid #858585;
+  height: 580px;   
+  border: 2px solid #474e6d;
+  
   margin: 20px;
   margin-left: 300px;
   margin-bottom: 200px;
@@ -27,7 +40,7 @@
 
 .form input {
   width: 290px;
-  
+  margin-left: 10px;
 }
 .form .body-form ,input button{
 margin-left: 35px;
@@ -37,16 +50,16 @@ margin-left: 35px;
 .bodyText h1 {
 padding: 36px;
 text-align: center;
-font-size: 30px;
+font-size: 36px;
 font-weight: bolder;
 font-family: 'Josefin Sans', sans-serif;
 
 }
 .bodyText img {
-width: 180px;
+width: 200px;
 position: absolute;
 margin-left: 80px;
-margin-top: 10px;
+margin-top: 8px;
 }
 
 .fname .fname-int, input{
@@ -77,6 +90,8 @@ height: 30px;
 float: none;
 width: 426px;
 height: 30px;
+margin-bottom: 40px;
+
 }
 
 .fpesan .fpesan-int, input {
@@ -90,6 +105,7 @@ background-color: #e4e4e4;
   padding-top: 12px;
   line-height: 24px;
   text-align: justify;
+  margin-left: 10px;
 }
 
 .fpesan, input , .fpesan-int{
@@ -103,14 +119,36 @@ text-align: justify;
 
 .btn-Kirim {
   width: 400px;
+  margin-left: 120px;
+  background-color:#474e6d;
+  color: white;
+}
+.btn-Loading{
+  width: 400px;
   margin-left: 120px;  
   background-color:#474e6d;
+  color: white;
+}
+.btn-Kirim:hover {
+  background-color:#2d3146;
+  color: white;
+  transition: 1s;
+  
 }
 
-.btn-Kirim:hover {
-  
-  background-color:#2d3146;
-}
+.form input:hover{
+  background-color: white;
+  border: 1px solid #474e6d;
+  color: black;
+  transition: 1s;
+  }
+  .form textarea:hover{
+  background-color: white;
+  border: 1px solid #474e6d;
+  color: black;
+  transition: 1s;
+  }
+
 
 /* =======================BAGIAN CONTACT FORM */
 
