@@ -218,6 +218,7 @@ body{
   margin-bottom: 200px ;
   padding-left: 10px;
 }
+
 .board {
     column-count: 1;
     column-gap: 1rem;
