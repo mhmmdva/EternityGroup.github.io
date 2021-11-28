@@ -448,6 +448,19 @@
   
       
   }
+  
+  .card h5 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .card span {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .card i {
+    font-size: 1rem;
+}
 
 }
   @media (max-width: 427px){
