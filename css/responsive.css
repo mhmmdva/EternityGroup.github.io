@@ -613,6 +613,18 @@
     background-color:#2d3146;
   }
  
+  .card h5 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .card span {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .card i {
+    font-size: 1rem;
+}
   
 }
 
@@ -625,6 +637,19 @@
       padding: 0;
       font-size: 24px;
     }
+
+    .card h5 {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .card span {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .card i {
+      font-size: 1rem;
+  }
     
   }
 
@@ -756,6 +781,19 @@
     margin-left: 50px; 
     margin-bottom: 0px ;
   }
+
+  .card h5 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .card span {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .card i {
+    font-size: 1rem;
+}
     
   }
 
