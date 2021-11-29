@@ -324,7 +324,7 @@ body{
 /*-------MAIN-------*/
 
 .main_section{
-	margin-top: 250px;
+	margin-top: 50px;
   }
   
 .bg-header:before{
@@ -516,7 +516,6 @@ img#flag {
 	grid-column-gap: 40px;
 	justify-content: center;
 	margin-bottom: 30px;
-	
 }
 
 .card_category {
@@ -532,7 +531,7 @@ img#flag {
 	height: 200px;
 	object-fit: cover;
 	
-	left: 30px;
+	left: 55px;
 	top: 70px;
 }
 
