@@ -1,3 +1,4 @@
+
 .info-body{
     background-image: url(/img/bg_WPP_1.png);
     background-size: cover;
@@ -21,10 +22,8 @@
    
 }
 
-.box-articles span{
-    
-    color: red;        
-    
+.box-articles span{    
+    color: red;            
  }
 .box-articles p{  
     width: 380px;
@@ -32,9 +31,135 @@
     padding-left: 70px;
 }
 
-.box-articles img{
-    float: right;    
+/* =============== MAIN BODY ================= */
+.main_bdy{
+    border-bottom: 2px solid #c4c4c4; 
+
+    width: 100%;
+    height: 60px;
+    margin-top: 48px;
+    margin-bottom: 200px;
+}
+
+.main_txt {
+    padding: 6px;
+    text-align: center;    
     
+}
+
+.main_txt h1 {
+    font-size: 36px;   
+    font-weight: bolder;
+}
+
+.main_txt span {
+    font-size: 18px;
+}
+
+
+
+.main_txt h3 {
+    float: left;
+    font-size: 14px;   
+    font-weight: lighter;
+
+    padding-top: 28px;
+    padding-left: 28px;
+}
+
+.txt_bdy h3{
+    width: 540px;
+    text-align: justify;
     
+}
+
+.txt_H3{
+    width: 500px;
+    float: right;
+}
+
+
+/* =============== MAIN BODY ================= */
+.section{
+    width: 100%;
     
+}
+
+.section-box{        
+    margin: 42px 0 0 150px;
+    
+    box-sizing: border-box;
+    display: flex;        
+}
+
+
+.section-boxes
+ .fas{
+    color: rgb(255, 255, 255);
+    padding-right: 12px;
+}
+
+.section-box
+ .fas{
+    color: rgb(255, 255, 255);
+    padding-right: 12px;
+}
+
+.section-box li{
+    
+    margin: 5px;
+    border: 5px solid #c4c4c4;   
+    background-color: #a3a3a3; 
+    
+    border-radius: 35px; 
+    padding: 20px;    
+    
+    width: 400px;
+    height: 70px;
+    text-align: center;    
+}
+
+.section-box a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.section-boxes a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.section-boxes {
+    margin: 12px 0 42px  150px;
+    
+    box-sizing: border-box;
+    display: flex; 
+    
+}
+
+.section-boxes li{
+    margin: 5px;
+    padding: 20px;    
+    
+    border: 5px solid #c4c4c4;   
+    background-color: #b6b6b6; 
+    border-radius: 35px; 
+    width: 400px;
+    height: 70px;
+    text-align: center;    
+}
+
+
+.section-box li:hover {
+    
+    background-color: #838383;
+    transition: 0.5s;
+}
+
+.section-boxes li:hover {
+    
+    background-color: #838383;
+    transition: 0.5s;
 }
