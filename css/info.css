@@ -86,80 +86,34 @@
 }
 
 .section-box{        
-    margin: 42px 0 0 150px;
-    
-    box-sizing: border-box;
-    display: flex;        
-}
-
-
-.section-boxes
- .fas{
-    color: rgb(255, 255, 255);
-    padding-right: 12px;
+    margin: 42px 0 0 180px;       
+    width: 780px;
 }
 
 .section-box
  .fas{
-    color: rgb(255, 255, 255);
-    padding-right: 12px;
+    color: rgb(0, 0, 0);
+    padding-right: 2px;
 }
 
 .section-box li{
     
-    margin: 5px;
-    border: 5px solid #c4c4c4;   
-    background-color: #a3a3a3; 
+    float: left;
+    margin: 12px;    
+    margin-bottom: 42px;
     
-    border-radius: 35px; 
-    padding: 20px;    
-    
-    width: 400px;
-    height: 70px;
-    text-align: center;    
+    border-bottom: 3px solid #030303;                    
+    text-align: center;      
+    height: 30px;
+    width: 170px;
 }
 
-.section-box a {
+.section-box a{
     text-decoration: none;
-    color: white;
-    font-size: 18px;
 }
 
-.section-boxes a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+.section-box li:hover{
+    border-bottom: 3px solid #525252;  
+    color: rgb(245, 155, 37) ;                
 }
-
-.section-boxes {
-    margin: 12px 0 42px  150px;
-    
-    box-sizing: border-box;
-    display: flex; 
-    
-}
-
-.section-boxes li{
-    margin: 5px;
-    padding: 20px;    
-    
-    border: 5px solid #c4c4c4;   
-    background-color: #b6b6b6; 
-    border-radius: 35px; 
-    width: 400px;
-    height: 70px;
-    text-align: center;    
-}
-
-
-.section-box li:hover {
-    
-    background-color: #838383;
-    transition: 0.5s;
-}
-
-.section-boxes li:hover {
-    
-    background-color: #838383;
-    transition: 0.5s;
-}
+/* DROP DOWN */
