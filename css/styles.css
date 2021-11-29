@@ -351,6 +351,7 @@ body{
 .container h2 {
     margin: 0 0 30px;
     text-align: center;
+	font-weight: bold;
 }
 img#flag {
     height: 20px;
@@ -368,31 +369,34 @@ img#flag {
     background: #959696;
 }
 .card.cr {
-    background: #959696;
+    background: #5670e4;
 }
 .card.r {
-    background: #959696;
+    background: #EC1D27;
 }
 .card.ca {
     background: #959696;
 }
 .card.d {
-    background: #959696;
+    background: #5670e4;
 }
 .card.t {
-    background: #959696;
+    background: #EC1D27;
 }
 .card h5 {
     margin: 0;
     font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 .card span {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1px;
+    padding-top: 25px;
 }
 .card i {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /* BAGIAN UNTUK MAIN_SECTION */
