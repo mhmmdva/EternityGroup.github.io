@@ -58,7 +58,8 @@ font-family: 'Raleway', sans-serif;
 
 /* BAGIAN CSS */
 body{
-	font-family: 'Quicksand', sans-serif
+	font-family: 'Quicksand', sans-serif;
+	
 }
 
 .container {
@@ -320,7 +321,6 @@ body{
 
 /* -------Slider-body--------- */
 
-
 /*-------MAIN-------*/
 
 .main_section{
@@ -406,90 +406,6 @@ img#flag {
 
 
 /* ===================== contact us ===================== */
-.link-contact{
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-.link-contact:hover{
-  text-decoration: none;
-}
-
-form {
-  width: 750px;
-  height: 550px;   
-  border: 1px solid #858585;
-  margin: 20px;
-  margin-left: 300px;
-  margin-bottom: 200px;
-
-}
-
-.form input {
-  width: 300px;
-  
-}
-.form .body-form ,input button{
-margin-left: 50px;
-
-
-}
-.bodyText h1 {
-padding: 36px;
-text-align: center;
-font-size: 30px;
-font-weight: 600;
-
-}
-.bodyText img {
-width: 250px;
-position: absolute;
-margin-left: 100px;
-}
-
-.fname .fname-int, input{
-float: left;
-margin-right: 20px;
-height: 30px;
-border: none;
-border-bottom: 1px solid #858585;
-}		
-
-.femail .femail-int, input{
-float: none;
-height: 30px;
-
-  
-}
-
-.fnomor .fnomor-int, input{
-width: 200px;
-float: left;
-margin-right: 20px;
-height: 30px;
-}
-
-.fask .fask-int, input {
-float: none;
-width: 400px;
-height: 30px;
-}
-
-.fpesan .fpesan-int, input {
-width: 620px;	
-}
-
-.fpesan, input , .fpesan-int{
-height: 250px;
-margin-bottom: 20px;
-}
-
-.btn-Kirim {
-  width: 400px;
-  margin-left: 130px;
-  box-shadow: 0px 7px black;
-  
-}
 
 
 /* ===================== footer ===================== */

@@ -102,18 +102,21 @@
     margin: 12px;    
     margin-bottom: 42px;
     
-    border-bottom: 3px solid #030303;                    
+    
     text-align: center;      
     height: 30px;
     width: 170px;
+    
 }
 
 .section-box a{
     text-decoration: none;
+    
+    color: black;
 }
 
 .section-box li:hover{
-    border-bottom: 3px solid #525252;  
-    color: rgb(245, 155, 37) ;                
+    border-bottom: 3px solid #e40000;  
+    transition: 0.2s;             
 }
 /* DROP DOWN */
