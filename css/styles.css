@@ -340,7 +340,7 @@ body{
 /*-------MAIN-------*/
 
 .main_section{
-	margin-top: 250px;
+	margin-top: 50px;
   }
   
 .bg-header:before{
@@ -425,6 +425,88 @@ img#flag {
 
 
 /* ===========================CATEGORY =================== */
+.categories {
+	display:contents;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 40px;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.card_category {
+	position: relative;
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+.card_category img {
+	position: absolute;
+	box-shadow: 2px 2px 10px -2px #333;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	
+	left: 55px;
+	top: 70px;
+}
+
+
+.desc_category {
+	padding: 55px 30px 10px;
+	height: 450px;
+	margin-top: 200px;
+	text-align: center;
+	border: 2px solid #fc9d03;
+	box-shadow: 2px 2px 5px -3px #333;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.desc_category h2{
+	margin: 10px 0px;
+	color: #333;
+}
+
+.desc_category p + p {
+	background-color: #fc9d0380;
+	padding: 15px;
+	margin-top: 20px;
+	color: #333;
+	font-size: 16px;
+	line-height: 15px;
+}
+
+.desc_category a.recipe_btn{
+	color: #555;
+	font-weight: bold;
+	border-left: 2px solid #fc9d03;
+	padding-left: 10px;
+}
+
+.desc_category a.recipe_btn:hover {
+	color: #fc9d03;
+	transition: color 0.3s ease-in-out;
+}
+
+.desc_category a.button {
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	width: 120px;
+	background-color: #fc9d03;
+	font-weight: bold;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.desc_category a.button:hover {
+	color: #333;
+	border: 2px solid #fc9d03;
+	background-color: #fff;
+	box-sizing: border-box;
+	transition: all 0.3 ease-in-out;
+}
+
 
 /* ===================== footer ===================== */
 footer{
