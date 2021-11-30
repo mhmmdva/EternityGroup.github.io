@@ -67,182 +67,109 @@ body {
 
 
 /* =================UNTUK BAGIAN BERITA DI TOP=========== */
-.breakNews{
-	font-family: 'Poppins', sans-serif;
+.categories {
+	display:contents;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-column-gap: 40px;
+	justify-content: center;
+	margin-bottom: 30px;
+	
+	
 }
-.img-top {
-	display: inline-block;
+
+.card_category {
+	position: relative;
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+.card_category img {
+	position: absolute;
+	box-shadow: 2px 2px 10px -2px #333;
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	
+	left: 20px;
+	top: 80px;
+}
+
+
+.desc_category {
+	padding: 55px 30px 10px;
+	height: 510px;
+	margin-top: 200px;
 	text-align: center;
-	width: 100%;		
-}
-
-figure {
-	overflow: hidden;
-	margin: 0 10px;
-}
-
-.img-top img {
-	display: block;	
-	width: 100%;
-	height: 450px;
-	cursor: pointer;
-	z-index: 1;
-	position: relative;
-}
-.img-top #zoom-img figure img {
-	transform: scale(1);
-	transition: 0.8s ease-in-out;
-}
-.img-top #zoom-img figure:hover img {
-	transform: scale(1.1);
-}
-.zoom-img ,h2{
-	position: absolute;
-	font-size: 40px;
-	top: 400px; 
-	left: 555px;
-	z-index: 1;
-}
-/* =================UNTUK BAGIAN BERITA DI TOP=========== */
-
-
-
-/* =================UNTUK BAGIAN BERITA DI MID=========== */
-.zoom-img ,h3{
-	position: absolute;
-	font-size: 28px;
-	top: 750px; 
-	left: 250px;
-	z-index: 1;
-
-}
-
-.zoom-img ,.mid-img-txt1{
-	position: absolute;
-	font-size: 28px;
-	top: 750px; 
-	left: 820px;
-	z-index: 1;
 	
-}
-.zoom-img ,.mid-img-txt2{
-	position: absolute;
-	font-size: 28px;
-	top: 1050px; 
-	left: 240px;
-	z-index: 1;
-	
-}
-.zoom-img ,.mid-img-txt3{
-	position: absolute;
-	font-size: 28px;
-	top: 1050px; 
-	left: 820px;
-	z-index: 1;
-	
-}
-.img-mid img {
-	display: block;	
-	width: 100%;
-	height: 450px;
-	cursor: pointer;
-	z-index: 1;
-	position: relative;
-}
-.img-mid {
-	margin: 0;
-	padding: 0;
-
-	display: inline-block;
-	text-align:center;
-	width: 50%;
-	float: left;
-	
+	border: 2px solid #c4c4c4;
+	box-shadow: 2px 2px 5px -3px #333;	
+	box-sizing: border-box;
 }
 
-.img-mid img {
+.desc_category h2{
+	margin: 40px 0px;	
+	height: 60px;
+	
+	font-family: 'Raleway' sans-serif;
+
+	
+	text-align: left;
+	font-size: 18px;
+	color: #333;
+}
+
+.desc_category p {
+	background-color: #c4c4c480;
+	padding: 15px;
+	margin-top: 20px;
+
+	color: rgb(10, 10, 10);
+	font-size: 16px;
+	line-height: 15px;
+}
+
+.desc_category a.recipe_btn{
+	color: #555;
+	font-weight: bold;
+	border-left: 2px solid #fc9d03;
+	padding-left: 10px;
+}
+
+.desc_category a.recipe_btn:hover {
+	color: #fc9d03;
+	transition: color 0.3s ease-in-out;
+}
+
+.desc_category a.button {
 	display: block;
+	margin: 20px auto;
+
+	padding: 10px;
 	width: 100%;
-	height: auto;
-	cursor: pointer;
+	background-color: #11100e;
+	font-weight: bold;
+	color: #fff;
+	box-sizing: border-box;
+	text-decoration: none;
 }
-.img-mid #zoom-In figure img {
-	transform: scale(1);
-	transition: 0.3s ease-in-out;
+
+.desc_category a.button:hover {
+	color: #333;
+	border: 2px solid #c2c2c2;
+	background-color: #fff;
+	box-sizing: border-box;
+	transition: all 0.3 ease-in-out;
+	text-decoration: none;
 }
-.img-mid #zoom-In figure:hover img {
-	transform: scale(1.1);
-}
+
 
 /* =================UNTUK BAGIAN BERITA DI MID=========== */
 
 /* ===================== footer ===================== */
-footer{
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: #111;
+footer{	
 	height: auto;
-	width: 100vw;
-	font-family: "Open Sans";
+	width: 100%;
+   
 	padding-top: 40px;
 	color: #fff;
-  }
-  .footer-content{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-  }
-  .footer-content h3{
-	font-size: 1.8rem;
-	font-weight: 400;
-	text-transform: capitalize;
-	line-height: 3rem;
-  }
-  .footer-content p{
-	max-width: 500px;
-	margin: 10px auto;
-	line-height: 28px;
-	font-size: 14px;
-  }
-  .socials{
-	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 1rem 0 3rem 0;
-  }
-  .socials li{
-	margin: 0 10px;
-  }
-  .socials a{
-	text-decoration: none;
-	color: #fff;
-  }
-  .socials a i{
-	font-size: 1.1rem;
-	transition: color .4s ease;
-  
-  }
-  .socials a:hover i{
-	color: aqua;
-  }
-  
-  .footer-bottom{
-	background: #000;
-	width: 100vw;
-	padding: 20px 0;
-	text-align: center;
-  }
-  .footer-bottom p{
-	font-size: 14px;
-	word-spacing: 2px;
-	text-transform: capitalize;
-  }
-  .footer-bottom span{
-	text-transform: uppercase;
-	opacity: .4;
-	font-weight: 200;
-  }
+}
