@@ -216,7 +216,7 @@ body{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
-	background-color: #2196F3;
+	
 	padding: 10px;
   }
   
@@ -337,18 +337,17 @@ body{
 .cover .feature:nth-child(4) h1{
 	font-size: 20px;
 }
-/* BODY ATAS------------- */
+/* -------------BODY ATAS GRID------------- */
 .grid-container {
 	display: grid;
 	grid-gap: 3px;			
-	background-color: ;
+	
 
 }
 .grid-container > div  {
 	padding: 0;
 }
-  .grid-item {
-	
+  .grid-item {	
 	text-align: center;
 	padding: 0px;
 	font-size: 30px;
@@ -392,6 +391,78 @@ body{
   width: 100%;
   }
   
+/* lanjutan dari code grid berita */
+.feature_grid {
+	position: relative;
+}
+
+.feature_grid img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+  .title_effect {
+	position: absolute;
+	bottom: 0;
+	background-color: #333;
+	opacity: 50%;
+	width: 100%;
+	height: 25%;
+}
+ 
+
+.feature_effect {
+	position: absolute;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 2px;
+	bottom: 0;
+	margin: 5px 10px;
+	color: rgb(255, 255, 255);
+	
+}
+
+/* .date_grid {
+	position: relative;
+	width: 55px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+	
+	background-color: #0000008f;
+	padding: 8px 0px;
+} */
+
+.date_grid h3{
+	line-height: 25px;
+}
+
+.date_grid span{
+	color: #2cb2ff;
+	
+	display: block;
+}
+
+.feature_effect h1{
+	font-size: 28px;
+}
+
+.feature_effect p {
+	font-size: 13px;
+	margin: 5px 0px;
+}
+
+.feature_effect a {
+	color: #2cb2ff;
+	text-decoration: none;
+}
+
+.feature_effect p span {
+	margin: 0px 15px;
+	border-left: 1px solid #fff;
+}
+
 
 /* -------SliderBody Text Atas--------- */
 .main_titleBdy-Top{
