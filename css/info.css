@@ -116,7 +116,7 @@
 }
 
 .section-box li:hover{
-    border-bottom: 3px solid #e40000;  
+    border-bottom: 3px solid #c4c4c4;  
     transition: 0.2s;             
 }
 /* DROP DOWN */
