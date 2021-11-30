@@ -16,7 +16,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -423,34 +423,16 @@ body{
 	
 }
 
-/* .date_grid {
-	position: relative;
-	width: 55px;
-	text-align: center;
-	font-size: 20px;
-	margin-bottom: 20px;
-	
-	background-color: #0000008f;
-	padding: 8px 0px;
-} */
-
-.date_grid h3{
-	line-height: 25px;
-}
-
-.date_grid span{
-	color: #2cb2ff;
-	
-	display: block;
-}
-
 .feature_effect h1{
-	font-size: 28px;
+	font-size: 18px;
+	margin-bottom: 28px;
+	width: 100%;
 }
 
 .feature_effect p {
 	font-size: 13px;
-	margin: 5px 0px;
+	margin: 10px 0px;
+	
 }
 
 .feature_effect a {
@@ -461,6 +443,7 @@ body{
 .feature_effect p span {
 	margin: 0px 15px;
 	border-left: 1px solid #fff;
+	
 }
 
 
