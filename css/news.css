@@ -67,116 +67,56 @@ body {
 
 
 /* =================UNTUK BAGIAN BERITA DI TOP=========== */
-.categories {
-	display:contents;
-	grid-template-columns: 300px 300px 300px 300px;
-	grid-column-gap: 40px;
-	justify-content: center;
-	margin-bottom: 30px;
-	
+
+.bodyCards{
+	display: flex;
 	
 }
-
-.card_category {
-	position: relative;
-	box-sizing: border-box;
+.cards {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	max-width: 300px;
 	margin: 10px;
-	
+}
+  
+.cards:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card_category img {
-	position: absolute;
-	box-shadow: 2px 2px 10px -2px #333;
-	width: 220px;
-	height: 220px;
-	object-fit: cover;
-	
-	left: 20px;
-	top: 8	0px;
-}
-
-
-.desc_category {
-	padding: 55px 30px 10px;
-	height: 510px;
-	margin-top: 200px;
-	text-align: center;
-	
-	border: 2px solid #c4c4c4;
-	box-shadow: 2px 2px 5px -3px #333;	
-	box-sizing: border-box;
-	
-}
-
-.desc_category span {
-	display: block;
-	font-size: 12px;
-	margin-top: 12px;
-	font-style: italic;
-	font-family: "Quicksand", sans-serif;
-	font-weight: 100;
-	text-align: center;
-
-}
-.desc_category h2{
-	margin: 40px 0px;	
-	height: 60px;			
-	font-family: "Poppins", sans-serif;
-	text-align: left;
+.btn_Load ,button {
+	padding: 10px;
 	font-size: 18px;
-	color: #333;
-}
-
-.desc_category p {
-	background-color: #c4c4c480;
-	padding: 10px;
-	color: rgb(10, 10, 10);
-	margin-top: 20px;
+	background-color: rgb(231, 231, 231);
+	border: none;
+	border-radius: 4px;
+	font-weight: 900;
 	
-	font-family: "Quicksand", sans-serif;
-	font-weight: 100;
-	font-size: 16px;
-	
-	text-align: left;
-	line-height: 15px;
 }
 
-.desc_category a.recipe_btn{
-	color: #555;
-	font-weight: bold;
-	border-left: 2px solid #fc9d03;
-	padding-left: 10px;
-}
-
-.desc_category a.recipe_btn:hover {
-	color: #fc9d03;
-	transition: color 0.3s ease-in-out;
-}
-
-.desc_category a.button {
+.cards:nth-child(1){
 	display: block;
-	margin: 20px auto;
-
-	padding: 10px;
-	width: 100%;
-	font-family: "Poppins", sans-serif;
-	background-color: #11100e;
-	font-weight: 100;
-	color: #fff;
-	box-sizing: border-box;
-	text-decoration: none;
 }
-
-.desc_category a.button:hover {
-	color: #333;
-	border: 2px solid #c2c2c2;
-	background-color: #fff;
-	box-sizing: border-box;
-	transition: all 0.3 ease-in-out;
-	text-decoration: none;
+.cards:nth-child(2){
+	display: block;
 }
-
-
+.cards:nth-child(3){
+	display: block;
+}
+.cards:nth-child(4){
+	display: block;
+}
+.cards:nth-child(5){
+	display: block;
+}
+.cards:nth-child(6){
+	display: block;
+}
+.cards:nth-child(7){
+	display: block;
+}
+.cards:nth-child(8){
+	display: block;
+}
 /* =================UNTUK BAGIAN BERITA DI MID=========== */
   
   .body-post {
