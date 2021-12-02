@@ -82,8 +82,8 @@ body{
 
 .container {
 	margin: 15px auto;
-	/* height: auto;
-  	border: 1px solid black; */
+	height: auto;
+  	/* border: 1px solid black; */
   	display: flex;
 }
 
@@ -227,6 +227,7 @@ body{
 	grid-template-columns: 50% 25% 24%;
 	grid-template-rows: 300px 300px;
 	
+	
 	grid-gap: 5px 5px;
 	width: 100%;
 	margin: 0px auto;
@@ -244,6 +245,7 @@ body{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 8px;
+	
 }
 
 .title_filter {
@@ -253,6 +255,7 @@ body{
 	opacity: 70%;
 	width: 100%;
 	height: 22%;
+	border-radius: 8px;
 }
 
 .feature_title {
@@ -399,20 +402,33 @@ body{
 
 
 /* -------------BODY ATAS GRID------------- */
-
+.coverGridBdy{
+	background-color: #eaeaea;
+	border: 6px solid #eaeaea;
+	border-radius: 8px;
+	
+}
 .grid-container {
 	display: grid;
-	grid-gap: 3px;			
+	grid-gap: 6px;	
+			
 }
 .grid-container > div  {
 	padding: 0;
+	background-color: #eaeaea;
 }
 
 .feature_effect h1{
 	font-weight: bolder;
 	
 }
+.feature_grid img {
+	border-radius: 8px;
 
+}
+.title_effect {
+	border-radius: 8px;
+}
   .grid-item {	
 	text-align: center;
 	padding: 0px;
