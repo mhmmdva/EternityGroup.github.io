@@ -120,26 +120,34 @@ body {
 /* =================UNTUK BAGIAN BERITA DI MID=========== */
   
   .body-post {
-	width: 100%;
+	width: 1000px;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transform: translateX(110px);
 	padding: 0 24px;
   }
   
   .post {
-	padding: 5rem;
-	background-color: #fff;
-	box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+	padding: 1rem;
+	background-color: #fcfcfc;
+	border: 1px solid #f1f1f162;
+	
 	display: flex;
 	align-items: center;
 	border-radius: .8rem;
   }
+  .post:hover{
+	box-shadow: 0px 0px 1rem #eaeaee;
+	transition: 0.4s;
+  }
   
   .post-image {
 	width: 100%;
-	transform: translateX(-8px);
+	transform: translateX(12px);
 	position: relative;
+	
   }
   
   .post-image img {

@@ -14,7 +14,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="./css/cards.css"/>
+    <link rel="stylesheet" href="./css/csscard.css"/>
 
     <!--chat box-->
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="d9c10eec-e3c3-417d-8fa9-885d51b37ec7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
@@ -28,40 +28,54 @@
 </head>
 <body>
 <!-- Navbar -->
-<header>   
-     
-      <div class="brand_logo">
-        <a href="#"><h1>Eternity<span>Group</span></h1></a>
+<header>     
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="./index.html">Eternity<span>Group</span></a></div>
+        <ul class="links">
+          <li><a href="./index.html">Beranda</a></li>
+          <li>
+             <a href="./news.html" class="desktop-link">Berita</a>
+          
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Berita</label>
+            <ul>
+              <li><a href="./health.html">Kesehatan</a></li>
+              <li><a href="#">Vaksinasi</a></li>
+              
+            </ul>            
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Info</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Info</label>
+            <ul>
+              <li><a href="./info.html">Data</a></li>              
+            </ul>
+          </li> 
+          <li>
+            <a href="#" class="desktop-link">Layanan</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Layanan</label>
+            <ul>              
+              <li><a href="./faq.html">FAQ</a></li>                                  
+            </ul>
+          </li>
+          
+        </ul>
       </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-sign-in-alt "></i></button>
+      </form>
 
-      <div class="nav_bar">
-        <a href="./index.html">Beranda</a>
-        <div class="dropdown">
-          <button class="dropbtn"><a href="./news.html">Berita</a></button>
-          <div class="dropdown-content">
-            <a href="./health.html">Kesehatan</a>
-            <a href="#">Vaksinasi</a>
-            
-          </div>
-        </div>      
-        <div class="dropdown">
-          <button class="dropbtn"><a href="#">Info</a></button>
-          <div class="dropdown-content">
-            <a href="./info.html">Data</a>
-            
-            
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn"><a href="#">Layanan</a></button>          
-          <div class="dropdown-content">
-            <a href="#">FAQ</a>            
-            
-          </div>
-        </div>
-        
-      </div>     
-
+    </nav>
+  </div>
 </header>
 
 
@@ -218,48 +232,71 @@
 
 
 <div class="container">
-    <div class="blog-slider">
-  <div class="blog-slider__wrp swiper-wrapper">
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="./img/WHO4.png" width="10" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">30 November 2021</span>
-        <div class="blog-slider__title">VARIAN BARU BERNAMA OMICRON</div>
-        <div class="blog-slider__text">WHO memberitahukan kepada publik terkait kasus Covid-19 yang kini memiliki varian baru </div>
-        <a href="#" class="blog-slider__button">Baca Selengkapnya</a>    
-      </div>
-    </div>
-    <div class="blog-slider__pagination"></div>
+  <div class="blog-slider">
+<div class="blog-slider__wrp swiper-wrapper">
 
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="./img/moderna.jpg" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">29 November 2021</span>
-        <div class="blog-slider__title">KENALI VAKSIN MODERNA TERLEBIH DAHULU</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" class="blog-slider__button">Baca Selengkapnya</a>        
-      </div>
+  <div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__img">
+      <img src="./img/WHO4.png" alt="">
     </div>
-    <div class="blog-slider__pagination"></div>
-    
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="./img/masker.png" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">29 November 2021</span>
-        <div class="blog-slider__title">MENCEGAH COVID DENGAN MASKER</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" class="blog-slider__button">Baca Selengkapnya</a>        
+    <div class="blog-slider__content">
+      <span class="blog-slider__code">29 November 2021</span>
+      <div class="blog-slider__title">VARIAN BARU BERNAMA OMICRON</div>
+      <div class="blog-slider__text">WHO memberitahukan kepada publik terkait kasus Covid-19 yang kini memiliki varian baru </div>
+      <a href="#" class="blog-slider__button">BACA SELENGKAPNYA</a>
     </div>
-    <div class="blog-slider__pagination"></div>    
-</div>		
-</div>
+  </div>
   
+  <div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__img">
+      <img src="./img/moderna.jpg" alt="">
+    </div>
+    <div class="blog-slider__content">
+      <span class="blog-slider__code">29 November 2021</span>
+      <div class="blog-slider__title">KENALI VAKSIN MODERNA TERLEBIH DAHULU</div>
+      <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+      <a href="#" class="blog-slider__button">BACA SELENGKAPNYA</a>
+    </div>
+  </div>
+  
+  <div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__img">
+      <img src="./img/masker.png" alt="">
+    </div>
+    <div class="blog-slider__content">
+      <span class="blog-slider__code">29 November 2021</span>
+      <div class="blog-slider__title">MENCEGAH COVID DENGAN MASKER</div>
+      <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+      <a href="#" class="blog-slider__button">BACA SELENGKAPNYA</a>
+    </div>
+  </div>
+
+  <div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__img">
+      <img src="salad4.jpg" alt="">
+    </div>
+    <div class="blog-slider__content">
+      <span class="blog-slider__code">29 November 2021</span>
+      <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+      <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+      <a href="#" class="blog-slider__button">BACA SELENGKAPNYA</a>
+    </div>
+  </div>
+
+   <div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__img">
+      <img src="1.jpg" alt="">
+    </div>
+    <div class="blog-slider__content">
+      <span class="blog-slider__code">29 November 2021</span>
+      <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+      <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+      <a href="#" class="blog-slider__button">BACA SELENGKAPNYA</a>
+    </div>
+  </div>
+  
+</div>
+<div class="blog-slider__pagination"></div>
 </div>
 </div>
 <!-----Footer------->
@@ -267,7 +304,7 @@
  <footer>
   <div class="footer-content">
       <h3>Eternity Group</h3>
-      <p>Menyediakan berita yang selalu up-to-date terkait Covid-19</p>
+      <p>Kami akan selalu menyediakan berita yang selalu up-to-date terkait kasus Covid-19 yang berada di Indonesia</p>
       <ul class="socials">
           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
           <li><a href="#"><i class="fab fa-twitter"></i></a></li>

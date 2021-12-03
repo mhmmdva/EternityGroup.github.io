@@ -7,6 +7,7 @@
      <!-- CSS -->
      <link rel="stylesheet" href="./css/styles.css">
      <link rel="stylesheet" href="./css/responsive.css">
+     <link rel="stylesheet" href="./css/news.css">
      
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Quicksand:wght@402&family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -17,37 +18,57 @@
 
 </head>
 <body>
-<header>        
-    <div class="brand_logo">
-      <a href="#"><h1>Eternity<span>Group</span></h1></a>
-    </div>
-  
-        <div class="nav_bar">
-          <a href="./index.html">Beranda</a>
-          <div class="dropdown">
-            <button class="dropbtn"><a href="./news.html">Berita</a></button>
-            <div class="dropdown-content">
-              <a href="#">Kesehatan</a>
-              <a href="#">Vaksinasi</a>              
-            </div>
-          </div>      
-
-          <div class="dropdown">
-            <button class="dropbtn"><a href="#">Info</a></button>
-            <div class="dropdown-content">
-              <a href="#">Data</a>                            
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn"><a href="#">Layanan</a></button>          
-            <div class="dropdown-content">
-              <a href="#">FAQ</a>                          
-            </div>
-          </div>
+<!-- Navbar -->
+<header>     
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="./index.html">Eternity<span>Group</span></a></div>
+        <ul class="links">
+          <li><a href="./index.html">Beranda</a></li>
+          <li>
+             <a href="./news.html" class="desktop-link">Berita</a>
           
-        </div>       
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Berita</label>
+            <ul>
+              <li><a href="./health.html">Kesehatan</a></li>
+              <li><a href="#">Vaksinasi</a></li>
+              
+            </ul>            
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Info</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Info</label>
+            <ul>
+              <li><a href="./info.html">Data</a></li>              
+            </ul>
+          </li> 
+          <li>
+            <a href="#" class="desktop-link">Layanan</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Layanan</label>
+            <ul>              
+              <li><a href="./faq.html">FAQ</a></li>                                  
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-sign-in-alt "></i></button>
+      </form>
+
+    </nav>
+  </div>
 </header>
+
   
 <!-- body top main -->
 <div class="top_health">
@@ -59,19 +80,109 @@
     </div>
 </div>
 
-<div class="middle_health">    
-        <div class="health_txt2">
-            <h2>3 TIPS OLAHRAGA DI RUMAH SELAMA MASA PANDEMI</h2>
-        </div>    
-             
-</div>
+<div class="container">
+    <div class="body-post">
+        <div class="post">
+            <div class="post-image">
+                <img src="./img/sayuran.png" alt="">
+            </div>
+            <div class="post-desc">
+                <div class="post-date">
+                    <span class="one">Minggu</span>
+                    <span>28 November 2021 | Immune</span>
+                </div>
+                <a href="#" title=""><h1 class="post-title">5 Tips menjaga imun tubuh</h1></a>
+                <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur maiores velit ut porro voluptas ipsa. Tenetur dolorum mollitia ab vel, quam pariatur fugit? Magni nobis nesciunt voluptates temporibus est.</p>
+                <a href="#" class="post-btn">Baca Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  
+
+
+<!-- <div class="container">
+    <div class="grid-container coverGridBdy">
+     
+   
+      <div class="grid-item item1">
+        <div class="feature_grid">
+          <a href="#"><img src="./img/ppkm_titikjakarta.png" alt=""></a> 
+          <div class="title_effect"></div>
+          <div class="feature_effect">                        
+                <h1>PPKM DILAKUKAN DI BEBERAPA TITIK JAKARTA</h1>		            
+                <p><a href="#">Eternity</a><span></span> Virus <span></span> 28 November 2021</p>
+          </div>
+        </div>
+      </div>  
+  
+  
+    <div class="grid-item item2">
+       <div class="feature_grid">
+          <a href="#"><img src="./img/bersih-bersih.png" alt=""></a> 
+          <div class="title_effect"></div>
+          <div class="feature_effect">            
+            <h1>DOKTER MENEMUKAN VARIAN BARU BERNAMA OMICRON</h1>		
+            <p><a href="#">Eternity</a><span></span> Virus <span></span> 28 November 2021</p>          
+          </div>
+        </div>
+    </div>  
+  
+    <div class="grid-item item3">
+      <div class="feature_grid">
+        <a href="#"><img src="./img/bg_immune.png" alt=""></a> 
+        <div class="title_effect"></div>
+        <div class="feature_effect">                    
+          <h1>DOKTER MENEMUKAN VARIAN BARU BERNAMA OMICRON</h1>		
+          <p><a href="#">Eternity</a><span></span> Virus <span></span> 28 November 2021</p>          
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item item4">
+      <div class="feature_grid">
+        <a href="#"><img src="./img/buah.png" alt=""></a> 
+        <div class="title_effect"></div>
+        <div class="feature_effect">          
+          <h1>DOKTER MENEMUKAN VARIAN BARU BERNAMA OMICRON</h1>		
+          <p><a href="#">Eternity</a><span></span> Virus <span></span> 28 November 2021</p>          
+        </div>
+      </div>
+    </div>
+  
+    <div class="grid-item item5">
+      <div class="feature_grid">
+        <a href="#"><img src="./img/vaksin_info.png" alt=""></a> 
+        <div class="title_effect"></div>
+        <div class="feature_effect">          
+          <h1>DOKTER MENEMUKAN VARIAN BARU BERNAMA OMICRON</h1>		
+          <p><a href="#">Eternity</a><span></span> Virus <span></span> 28 November 2021</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="grid-item item6">
+      <div class="feature_grid">
+        <a href="#"><img src="./img/moderna.jpg" alt=""></a> 
+        <div class="title_effect"></div>
+        <div class="feature_effect">          
+          <h1>DOKTER MENEMUKAN VARIAN BARU BERNAMA OMICRON</h1>		
+          <p><a href="#">Eternity</a><span></span> Virus <span></span> 28 November 2021</p>
+        </div>
+      </div>
+    </div>   
+  
+      </div>
+    </div>
+  </div> -->
 
 <!-- body top main -->
 
 <footer>
     <div class="footer-content">
         <h3>Eternity Group</h3>
-        <p>Menyediakan berita yang selalu up-to-date terkait Covid-19</p>
+        <p>Kami akan selalu menyediakan berita yang selalu up-to-date terkait kasus Covid-19 yang berada di Indonesia</p>
         <ul class="socials">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>

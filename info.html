@@ -25,42 +25,56 @@
 </head>
 <body>
 <!-- Navbar -->
-<header>   
-     
-  <div class="brand_logo">
-    <a href="#"><h1>Eternity<span>Group</span></h1></a>
+<header>     
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="./index.html">Eternity<span>Group</span></a></div>
+        <ul class="links">
+          <li><a href="./index.html">Beranda</a></li>
+          <li>
+             <a href="./news.html" class="desktop-link">Berita</a>
+          
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Berita</label>
+            <ul>
+              <li><a href="./health.html">Kesehatan</a></li>
+              <li><a href="#">Vaksinasi</a></li>
+              
+            </ul>            
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Info</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Info</label>
+            <ul>
+              <li><a href="./info.html">Data</a></li>              
+            </ul>
+          </li> 
+          <li>
+            <a href="#" class="desktop-link">Layanan</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Layanan</label>
+            <ul>              
+              <li><a href="./faq.html">FAQ</a></li>                                  
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-sign-in-alt "></i></button>
+      </form>
+
+    </nav>
   </div>
-
-  <div class="nav_bar">
-    <a href="./index.html">Beranda</a>
-    <div class="dropdown">
-      <button class="dropbtn"><a href="./news.html">Berita</a></button>
-      <div class="dropdown-content">
-        <a href="#">Kesehatan</a>
-        <a href="#">Vaksinasi</a>
-        
-      </div>
-    </div>      
-    <div class="dropdown">
-      <button class="dropbtn"><a href="#">Info</a></button>
-      <div class="dropdown-content">
-        <a href="#">Data</a>
-        
-        
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn"><a href="#">Layanan</a></button>          
-      <div class="dropdown-content">
-        <a href="#">FAQ</a>
-        <a href="#">Contact</a>
-        
-      </div>
-    </div>
-    
-  </div>     
-
 </header>
+
 
 
   <!-- Header -->
@@ -114,7 +128,7 @@
   <footer>
     <div class="footer-content">
         <h3>Eternity Group</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+        <p>Kami akan selalu menyediakan berita yang selalu up-to-date terkait kasus Covid-19 yang berada di Indonesia</p>
         <ul class="socials">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>

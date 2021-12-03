@@ -90,116 +90,170 @@ body{
 }
 
 /* ------------------HEADER LOGO---------------- */
-
-.brand_logo {
-	
+header {
+	margin-bottom: 150px;
+  }
+  
+  .wrapper{
+	background: #eaeaea;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+  
+  }
+  .wrapper nav{
+	position: relative;
+	display: flex;
+	max-width: calc(100% - 200px);
 	margin: 0 auto;
-	font-weight: bolder;
-}
-
-.brand_logo h1 {
-	
+	height: 70px;
+	align-items: center;
+	justify-content: space-between;
+  }
+  nav .content{
+	display: flex;
+	align-items: center;
+  }
+  nav .content .links{
+	margin-left: 80px;
+	display: flex;
+  }
+  .content .logo a{
+	color: rgb(31, 26, 26);
 	font-size: 30px;
-	letter-spacing: 5px;
-	font-weight: normal;
-	text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: black;
-	
-}
-.brand_logo a{
+	font-weight: 800;
 	text-decoration: none;
-	padding: 14px;
-	
-}
-.brand_logo span {
-	color: #0b8ad4;
-	font-size: 18px;
-	
-}
-
-
-.nav_bar {
-	position: relative;
-	text-align: center;
-	grid-column: 1/4;
-	width: 600px;
-	margin: 0 auto;
-	margin-bottom: 100px;
-	
-}
-
-.nav_bar a{			
-	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+  }
+  .content .logo span{
+	color: #2cb2ff;
 	font-size: 14px;
-	padding: 0px 20px;
+	font-weight: 800;
 	text-decoration: none;
-	color: black;
-	font-family: 'Quicksand', sans-serif;
-}
-
-.nav_bar a:hover {
-	color: #0b8ad4;
-	transition: color 0.3s ease-in-out;
-	border-bottom: 3px solid #000000;
-	border-bottom-left-radius: 6px;
-	border-bottom-right-radius: 6px;
-}
-.nav_bar a:active{
-	color: #035280;
-}
-
-.nav_bar a:nth-child(2):hover ~.line {
-	transform: translateX(150px);
-	transition: transform 0.3s ease-in-out;
-}
-
-.nav_bar a:nth-child(3):hover ~.line {
-	transform: translateX(300px);
-	transition: transform 0.3s ease-in-out;
-}
-
-.nav_bar a:nth-child(4):hover ~.line {
-	transform: translateX(450px);
-	transition: transform 0.3s ease-in-out;
-}
-
-
-.dropbtn {	
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	background-color: unset;
-	font-family: "Quicksand" sans-serif;
-	font-weight: 900;
-	
   }
-  
-  .dropdown {
-	position: relative;
-	display: inline-block;
+  .content .links li{
+	list-style: none;
+	line-height: 70px;
   }
-  
-  .dropdown-content {
+  .content .links li a,
+  .content .links li label{
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-weight: 600;
+	padding: 9px 17px;
+	border-radius: 8px;
+	transition: all 0.3s ease;
+	text-decoration: none;
+  }
+  .content .links li label{
 	display: none;
-	position: absolute;	
-	min-width: 160px;	
-	z-index: 1;
-	border: 1px solid rgb(233, 233, 233);
-	border-radius: 12px;
-	border-top: none;
+  }
+  .content .links li a:hover,
+  .content .links li label:hover{
+	background: rgb(226, 226, 226);
+	border-radius: 8px;
+  }
+
+  .wrapper .search-icon,
+  .wrapper .menu-icon{
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	cursor: pointer;
+	line-height: 70px;
+	width: 70px;
+	text-align: center;
+  }
+  .wrapper .menu-icon{
+	display: none;
+  }
+  .wrapper #show-search:checked ~ .search-icon i::before{
+	content: "\f00d";
   }
   
-  .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
+  .wrapper .search-box{
+	position: absolute;
+	height: 100%;
+	max-width: calc(100% - 50px);
+	width: 100%;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease;
+  }
+  .wrapper #show-search:checked ~ .search-box{
+	opacity: 1;
+	pointer-events: auto;
+  }
+  .search-box input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	margin-top: 80px ;
+	color: #fff;
+	background: #171c24;
+	padding: 0 100px 0 15px;
+  }
+  .search-box input::placeholder{
+	color: #f2f2f2;
+  }
+  .search-box .go-icon{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	line-height: 60px;
+	width: 70px;
+	background: #171c24;
+	border: none;
+	outline: none;
+	margin-top: 80px;
+	color: rgb(250, 250, 250);
+	font-size: 20px;
+	cursor: pointer;
+  }
+  .wrapper input[type="checkbox"]{
+	display: none;
+  }
+  
+  /* Dropdown Menu code start */
+  .content .links ul{
+	position: absolute;
+	background: #ffffff;
+	
+	border-radius: 8px;
+	top: 80px;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+  }
+  
+  .content .links li:hover > ul{
+	top: 70px;
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease;
+	
+  
+  }
+  .content .links ul li a{
 	display: block;
+	width: 100%;
+	line-height: 30px;
+	border-radius: 0px!important;
   }
-  
-  .dropdown-content a:hover {background-color: rgba(238, 238, 238, 0.253);}
-  
-  .dropdown:hover .dropdown-content {display: block;}
+  .content .links ul ul{
+	position: absolute;
+	top: 0;
+	right: calc(-100% + 8px);
+  }
+  .content .links ul li{
+	position: relative;
+  }
+  .content .links ul li:hover ul{
+	top: 0;
+  }
   
 
 /*========================TOP KONTEN NEWS===================*/
@@ -236,13 +290,22 @@ body{
 
 .feature {
 	position: relative;
-	
+	overflow: hidden;  
 }
 
 .feature img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 8px;
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
+	
+}
+
+.feature img:hover{
+	webkit-transform: scale(1.08);
+  	transform: scale(1.08);
 	border-radius: 8px;
 	
 }
@@ -404,10 +467,6 @@ body{
 	background-color: #eaeaea;
 }
 
-.feature_grid img {
-	border-radius: 8px;
-
-}
 
   .grid-item {	
 	text-align: center;
@@ -463,16 +522,24 @@ body{
 /* lanjutan dari code grid berita */
 .feature_grid {
 	position: relative;
+	overflow: hidden;  
+}
+
+.feature_grid img:hover {
+	webkit-transform: scale(1.08);
+  	transform: scale(1.08);
+	border-radius: 8px;
 }
 
 .feature_grid img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 8px;
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
 }
-
-
-  .title_effect {
+.title_effect {
 	position: absolute;
 	bottom: 0;
 	background-color: #333;
@@ -758,7 +825,21 @@ img#flag {
 	transition: all 0.3 ease-in-out;
 }
 
+/* Quick-zoom Container */
+.img-hover-zoom--quick-zoom img {
+	transform-origin: 0 0;
+	transition: transform .25s, visibility .25s ease-in;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--quick-zoom:hover img {
+	transform: scale(2);
+}
 
+.img-hover-zoom {
+	height: 300px; /* Modify this according to your need */
+	overflow: hidden; /* Removing this will break the effects */
+  }
 
 /* ===========BAGIAN PAGES KESEHATAN=================*/
 .health{
