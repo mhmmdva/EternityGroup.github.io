@@ -75,7 +75,7 @@
    transition-delay: 1.7s;
 }
  .blog-slider__img {
-   width: 500px;
+   width: 450px;
    flex-shrink: 0;
    height: 300px;
    background-image: linear-gradient(147deg, #ffffff 0%, #ffffff 74%);
@@ -126,7 +126,7 @@
    color: #4e4a67;
    margin-bottom: 30px;
    line-height: 1.5em;
-   width: 450px;
+   width: 350px;
 }
  .blog-slider__button {
    display: inline-flex;
