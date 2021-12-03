@@ -79,8 +79,20 @@
 
 
 /* =============== MAIN BODY ================= */
+.body {
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+  }
+
 .container-canvas {
-    width: 100%;
+    width: 85%;
     position: relative;
   }
   
@@ -91,7 +103,7 @@
   }
   
   #canvas {
-    width: 85%;
+    width: 100%;
   }
   
   @media only screen and (max-widtH: 300px) {
