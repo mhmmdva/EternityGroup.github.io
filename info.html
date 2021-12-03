@@ -70,64 +70,43 @@
               <article class="box-articles">                
                 <h1>AYO CEGAH PENYEBARAN <span>COVID-19</span> BERSAMA KAMI ! </h1>
                 <p>Websites kami selalu menyediakan berita yang up-to-date terkait Covid-19, dan akan selalu memberikan pesan yang positif kepada masyarakat untuk memotivasi mereka dalam mencegah Covid-19</p>                
-              </article>
-            
+              </article>           
          </div>
        </div>
-  </div>
+  </div> 
+
+  <div class="main_section">
+    <div class="container">
+        <div class="container_main">
+          <h2>Kasus Covid-19 <span id="country"></span> <img src="" id="flag"></h2>
+          <div class="board">
+            <div class="card a"><h5>Kasus Aktif</h5><span id="active"></span></div>
+            <div class="card ca"><h5>Kasus Positif</h5><span id="cases"></span></div>
+            <div class="card cr"><h5>Kasus Kritis</h5><span id="critical"></span></div>
+            <div class="card d"><h5>Kasus Kematian</h5><span id="death"></span></div>
+            <div class="card r"><h5>Kasus Pulih dari Covid</h5><span id="recovered"></span></div>
+            <div class="card t"><h5>Sudah melakukan tes Covid</h5><span id="tests"></span></div>
+          </div>
+        </div>
+    </div>
+</div>
   
   <!-- Main section -->
-  <div class="main">
-    <div class="container">
-      
-      <div class="main_bdy">
-          <div class="main_txt">
-            <h1>Eternity<span>Group</span></h1>  
-          </div>
-
-          <div class="main_txt">
-            <div class="txt_bdy">
-              <h3 class="txt_H3">
-                Kami didirikan pada tanggal 8 November 2021. Kami akan selalu memberikan informasi terbaru terkait Covid-19 dan berita yang kami sampaikan akan memberikan pesan yang positif dan dapat dijadikan motivasi kepada masyarakat agar tetap mengikuti anjuran pemerintah untuk terus mengikuti aturan 5M.
-                Tetap menyaring informasi terkait penyebaran Covid-19 dan memperbarui informasi yang ada guna menambah pengetahuan apa yang sedang terjadi saat ini. Jangan panik dan terus tingkatkan kewaspadaan mengenai penyebaran Covid-19.                
-              </h3>
-              <h3>
-                Kami hadir untuk membantu anda dalam mendapatkan Informasi seputar Covid-19, kesehatan itu sangat mahal, ada keluarga yang menanti kehadiran mu di rumah. Patuhi aturan yang ada, bersama kita bisa bangkit dari pandemi
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas cumque, impedit ipsum corporis itaque reprehenderit doloribus dolore veniam numquam id vero, provident consequuntur in tempora culpa eaque, recusandae quod.
-              </h3>
-            </div>
-          </div>
-
-      </div>
-
+  <div class="container-canvas">
+    <h1>Data visual covid setiap provinsi</h1>      
+    <div>
+        <canvas id="chart-line"></canvas>
     </div>
-  </div>
+    <div>
+        <canvas id="chart-bar"></canvas>           
+    </div>   
+    <div>
+        <canvas id="chart-dounat"></canvas>           
+    </div>  
+</div>
   <!-- Main seciton -->
 
-  <div class="section-nav">
-      <div class="container">
-        <div class="section">
-          <ul>
-            
-            <div class="section-box">
-                <li>
-                  <a href="./index.html"> <i class="fas fa-home"></i>Beranda</a>
-                </li>            
-                <li>
-                  <a href="./contact.html"><i class="fas fa-address-card"></i>Contact</a>
-                </li>   
-                <li>
-                  <a href="./news.html"><i class="fas fa-newspaper"></i> Berita Terkini</a>
-                </li>
-                <li>
-                  <a href="./info.html"><i class="fas fa-book-medical"></i>Tentang Kami</a>
-                </li>                                         
-            </div>      
-
-          </ul>
-        </div>
-      </div>
-  </div>
+  
   
   <!-- footer -->
   <footer>
@@ -147,10 +126,11 @@
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.1/dist/chart.min.js" type="text/javascript"></script>
   <!-- Custom Script -->
-
-
   <script src="./js/script.js"></script>
+  <script src="./js/chart.js"></script>
+  <script src="./js/api.js"></script>
  
 
 </body>
