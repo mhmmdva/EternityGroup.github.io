@@ -126,15 +126,14 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transform: translateX(10px);
+	transform: translateX(3vw);
 	padding: 0 24px;
   }
   
   .post {
 	padding: 1rem;
-	background: #fff;
-	box-shadow: 0px 7px 20px rgba(34, 35, 58, 0.2);
-	
+	background: #fff;	
+	border: 1px solid #eaeaee;
 	margin: 10px;
 	display: flex;
 	align-items: center;
@@ -143,11 +142,12 @@ body {
   .post:hover{
 	box-shadow: 0px 0px 1rem #eaeaee;
 	transition: 0.5s;
-	margin-top: 4px;
+	
   }
   
   .post-image {
 	width: 100%;
+	
 	transform: translateX(12px);
 	position: relative;
 	

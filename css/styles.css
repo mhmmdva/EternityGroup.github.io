@@ -608,9 +608,11 @@ header {
 	color: rgb(40, 149, 252);
 }
 
+
+
 /* -------SliderBody Text Atas--------- */
 .main_titleBdy-Top{
-	position: relative;
+	position: absolute;
 	border-bottom: 3px solid rgb(40, 149, 252);
 	width: auto;
 	font-size: 20px;
@@ -826,22 +828,6 @@ img#flag {
 	transition: all 0.3 ease-in-out;
 }
 
-/* Quick-zoom Container */
-.img-hover-zoom--quick-zoom img {
-	transform-origin: 0 0;
-	transition: transform .25s, visibility .25s ease-in;
-  }
-  
-  /* The Transformation */
-  .img-hover-zoom--quick-zoom:hover img {
-	transform: scale(2);
-}
-
-.img-hover-zoom {
-	height: 300px; /* Modify this according to your need */
-	overflow: hidden; /* Removing this will break the effects */
-  }
-
 /* ===========BAGIAN PAGES KESEHATAN=================*/
 
 
@@ -901,6 +887,41 @@ img#flag {
 
 
 /* ===========BAGIAN PAGES KESEHATAN=================*/
+
+
+/* ===========BAGIAN VAKSINASI======================= */
+.row {	
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+	
+}    
+.column {
+	-ms-flex: 25%; /* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+  
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+  
+.column-txt {
+	position: relative;
+	font-size: 10vw;
+	font-weight: bolder;
+	font-family: "Raleway", sans-serif ;
+	bottom: 23vw;
+	color: white;
+	text-align: center;
+} 
 
 
 
