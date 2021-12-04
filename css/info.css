@@ -89,29 +89,37 @@
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-  }
+}
 
 .container-canvas {
     width: 85%;
     position: relative;
-  }
+}
   
-  h1 {
+.container-canvas h1 {
     text-align: center;
     font-size: 46px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.chart h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
   
-  #canvas {
+#canvas {
     width: 100%;
-  }
+}
   
-  @media only screen and (max-widtH: 300px) {
+@media only screen and (max-widtH: 300px) {
     .container-canvas {
       width: 90%;
       height: 85%;
     }
-  }
+}
 
 .section{
     width: 100%;
