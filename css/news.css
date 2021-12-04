@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -125,22 +126,24 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transform: translateX(110px);
+	transform: translateX(10px);
 	padding: 0 24px;
   }
   
   .post {
 	padding: 1rem;
-	background-color: #fcfcfc;
-	border: 1px solid #f1f1f162;
+	background: #fff;
+	box-shadow: 0px 7px 20px rgba(34, 35, 58, 0.2);
 	
+	margin: 10px;
 	display: flex;
 	align-items: center;
 	border-radius: .8rem;
   }
   .post:hover{
 	box-shadow: 0px 0px 1rem #eaeaee;
-	transition: 0.4s;
+	transition: 0.5s;
+	margin-top: 4px;
   }
   
   .post-image {
@@ -156,9 +159,19 @@ body {
 	object-fit: cover;
 	display: block;
 	border-radius: .8rem;
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
   }
-  
+  .post-image img:hover{
+	webkit-transform: scale(1.08);
+  	transform: scale(1.08);
+	border-radius: 8px;
+	
+}
+
   .post-image::before {
+	webkit-transform: scale(1.08);
+	transform: scale(1.08); 
 	content: '';
 	width: 100%;
 	height: 100%;
@@ -180,14 +193,18 @@ body {
 	margin-left: 5rem;
 	padding-right: 5px;
   }
-  
+  .post-desc a, h1 {
+	  text-decoration: none;	  
+  }
   .post-title {
 	font-size: 25px;
 	margin: 16px 5rem;
 	text-transform: uppercase;
-	color: black;
-	text-decoration: none;
+	color: #1aa9fc;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
   }
+ 
   
   .post-text {
 	margin-left: 5rem;
@@ -198,19 +215,25 @@ body {
   
   .post-btn {
 	display: inline-block;
-	padding: 10px 10px;
+	padding: 15px 30px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-size: 10px;
-	color: white;
-	background-color: black;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: 900;
+	color: black;
+	padding: 15px 35px;
+	background-image: linear-gradient(147deg, #2cb2ff 0%, #c4c4c4 74%);
 	margin-left: 5rem;
+	text-decoration: none;
   }
   
   .post-btn:hover {
-	color: black;
-	background-color: white;
-	border: 1px solid black;
+	background-image: linear-gradient(147deg, #1aa9fc 0%, #b1b1b1 74%);
+	color: white;
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
   }
 
 /* ===================== footer ===================== */
