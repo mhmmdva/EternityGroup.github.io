@@ -1,3 +1,4 @@
+//data covid provinsi
 var xmlhttp = new XMLHttpRequest();
 var url = "https://apicovid19indonesia-v2.vercel.app/api/indonesia/provinsi";
 xmlhttp.open("GET", url, true);
@@ -13,7 +14,7 @@ xmlhttp.onreadystatechange = function(){
         var kasus = data.map(function(elem) {
             return elem.kasus;
         });
-        console.log(kasus);
+        //console.log(kasus);
         var kematian = data.map(function(elem) {
             return elem.meninggal;
         });
@@ -57,6 +58,7 @@ xmlhttp.onreadystatechange = function(){
 
 }
 
+//data covid provinsi
 var xmlhttp = new XMLHttpRequest();
 var url = "https://apicovid19indonesia-v2.vercel.app/api/indonesia/provinsi";
 xmlhttp.open("GET", url, true);
@@ -72,7 +74,7 @@ xmlhttp.onreadystatechange = function(){
         var kasus = data.map(function(elem) {
             return elem.kasus;
         });
-        console.log(kasus);
+        //console.log(kasus);
         var kematian = data.map(function(elem) {
             return elem.meninggal;
         });
@@ -115,3 +117,5 @@ xmlhttp.onreadystatechange = function(){
     }
 
 }
+
+
