@@ -88,8 +88,6 @@ body{
   	display: flex;
 }
 
-/* ------------------HEADER LOGO---------------- */
-
 /*========================TOP KONTEN NEWS===================*/
 .grid-container {
 	display: grid;
@@ -678,6 +676,33 @@ img#flag {
 	font-size: 10vw;
 	font-weight: 900;
 }
+
+
+
+
+
+/* ===========================BOTTOM TEXT====================== */
+.bottom_bdy {
+	margin-bottom: 90px;
+}
+.bottom_txt h1{
+	text-align: center;
+	font-size: 2.5vw;
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ===================== footer ===================== */
 footer{
 	bottom: 0;
