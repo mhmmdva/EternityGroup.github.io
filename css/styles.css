@@ -665,15 +665,19 @@ img#flag {
 }
 
 .column-txt {
-	position: relative;
-	font-size: 10vw;
+	position: relative;	
 	font-weight: bolder;
 	font-family: "Raleway", sans-serif ;
-	bottom: 23vw;
+	bottom: 26vw;
+	
 	color: white;
 	text-align: center;
 } 
 
+.column-txt h1 {
+	font-size: 10vw;
+	font-weight: 900;
+}
 /* ===================== footer ===================== */
 footer{
 	bottom: 0;

@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
-body {
-  font-family: 'Noto Sans HK', sans-serif;
-  background: #fff;
-}
+
 .slider {
   margin-bottom: 30px;
   position: relative;
+  
 }
 .slider .owl-item.active.center .slider-card {
   transform: scale(1.15);
   opacity: 1;
   background: #ff9966; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
+  
 }
 .slider-card {
   background: #fff;
@@ -30,6 +29,10 @@ body {
 }
 .slider-card img {
   border-radius: 5px 5px 0px 0px;
+}
+
+.mb-0 .text-center{
+    font-size: 90px;
 }
 .owl-nav .owl-prev {
   position: absolute;
@@ -60,5 +63,5 @@ body {
   outline: none;
 }
 .owl-dots .owl-dot.active {
-  background: #f44336 !important;
+  background: #36aef4 !important;
 }<gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></gwmw><gwmw style="display:none;">
