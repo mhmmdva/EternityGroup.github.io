@@ -84,8 +84,7 @@ body{
 	margin: 15px auto;	
 	padding: 0 70px;
 	height: auto;
-	width: 100%;
-	border: 1px solid black;
+	width: 100%;	
   	display: flex;
 }
 
@@ -454,7 +453,7 @@ header {
 	background-color: #eaeaea;
 	border: 6px solid #eaeaea;
 	border-radius: 8px;
-	margin-top: 90px;
+	
 	margin-bottom: 90px;
 }
 
@@ -612,7 +611,7 @@ header {
 
 /* -------SliderBody Text Atas--------- */
 .main_titleBdy-Top{
-	position: absolute;
+	position: relative;
 	border-bottom: 3px solid rgb(40, 149, 252);
 	width: auto;
 	font-size: 20px;
@@ -639,7 +638,7 @@ header {
 }
 
 .main_titleBdy-Pop{
-	position: absolute;
+	position: relative;
 	border-bottom: 3px solid rgb(40, 149, 252);
 	width: auto;
 	font-size: 20px;

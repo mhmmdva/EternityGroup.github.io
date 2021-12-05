@@ -37,34 +37,8 @@
     max-width: 100%;
     height: auto;
   }
-    /* CARD SLIDER */
-    .blog-slider {
-
-      width: 95%;
-      position: relative;
-      max-width: 100%;
-      margin: auto;
-      margin-top: 98px;
-      margin-bottom: 98px;
-      background: #fff;
-   
-      box-shadow: 0px 7px 30px rgba(34, 35, 58, 0.2);
-      padding: 25px;
-      border-radius: 25px;
-      height: 400px;
-      transition: all 0.3s;
-   }
-
-   .blog-slider__img {
-    width: 500px;
-    flex-shrink: 0;
-    height: 300px;
-    background-image: linear-gradient(147deg, #ffffff 0%, #ffffff 74%);
-    box-shadow: 3px 4px 10px 0px #e2e0e0;
-    border-radius: 20px;
-    transform: translateX(-80px);
-    overflow: hidden;
- }
+ 
+ 
 
 
  .feature_title p span {
@@ -72,147 +46,19 @@
 	border-left: 1px solid #fff;
 }
 
-.cover .feature:nth-child(1) p{
-  font-size: 10px;
-  margin-bottom: 6px;
-}
-
-.cover .feature:nth-child(2) h1{
-  font-size: 16px;
-  line-height: 18px;
-  padding-bottom: 0;
-}
-.cover .feature:nth-child(2) p{
-  font-size: 10px;
-  margin-bottom: 2px;
-}
-
-.cover .feature:nth-child(3) h1{
-font-size: 13px;
 
 }
 
-.cover .feature:nth-child(3) p{
-font-size: 10px;
-margin-bottom: 12px;
-}
-
-
-.cover .feature:nth-child(4) .title_filter {
-height: 22%;
-}
-
-.cover .feature:nth-child(4) h1{
-font-size: 28px;
-padding-top: 0px;
-}
-
-.cover .feature:nth-child(5) h1{
-font-size: 13px;		
-}
-
-
-.cover .feature:nth-child(5) p{
-font-size: 10px;			 	
-margin-bottom: 12px;
-}
-
-    /* BAGIAN MIDDLE NEWS */
-    .feature_effect h1{
-      font-size: 13px;
-      text-align: left;
-      width: 100%;
-      font-weight: bolder;
-    }
-        
-    .title_effect {
-      opacity: 50%;
-      width: 100%;
-      height: 36%;
-      border-radius: 8px;
-    }
-   
-}
-
-@media(max-width: 1100px){
- 
-   
-    .cover .feature:nth-child(1) h1{
-      font-size: 13px;
-      
-    }
-    .cover .feature:nth-child(1) p{
-      font-size: 10px;  
-      margin-bottom: 10px;    
-    }
-
-    .cover .feature:nth-child(2) h1{
-      font-size: 16px;
-      line-height: 18px;
-      padding-bottom: 0;
-    }
-    .cover .feature:nth-child(2) p{
-      font-size: 10px;
-      margin-bottom: 2px;
-    }
-
-.cover .feature:nth-child(3) h1{
-	font-size: 14px;
-  line-height: 18px;
-}
-
-.cover .feature:nth-child(3) p{
-	font-size: 10px;
-  	
-}
-
-
-.cover .feature:nth-child(4) .title_filter {
-	height: 22%;
-}
-
-.cover .feature:nth-child(4) h1{
-	font-size: 28px;
-	padding-top: 0px;
-}
-
-.cover .feature:nth-child(4) .date{
-	font-size: 16px;
-	margin-bottom: 6px;
-	padding: 6px 0px;
-	width: 50px;
-}
-
-.cover .feature:nth-child(5) h1{
-	font-size: 13px;		
-  
-}
-
-.cover .feature:nth-child(5) .date{
-	font-size: 16px;
-	width: 50px;
-	padding: 6px 0px;
-	margin-bottom: 5px;
-}
-
-.cover .feature:nth-child(5) p{
-	font-size: 10px;			 	
-  margin-bottom: 12px;  
-}
-
-}
  
   /* CARD======================== */
-  @media (max-width: 990px) {
-  
- 
+@media (max-width: 990px) {  
     .content button{
       padding: 0 10px;
       margin: 10px 0;
       border-radius: 5px;
       
     } 
-  }
+}
 
    /* Responsive layout - makes a two column-layout instead of four columns */
    @media screen and (max-width: 800px) {
@@ -224,11 +70,13 @@ margin-bottom: 12px;
     }
     
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-  
-    }
 
   @media screen and (max-width: 988px) {
+    .container{
+      margin: 0 auto;
+      
+      width: auto;
+    }
     .health_txt h1{
       font-size: 30px;    
       width: auto;
@@ -250,147 +98,11 @@ margin-bottom: 12px;
     .blog-slider {
       max-width: 680px;
       height: 400px;
-   }
-   .cover {
-    display: grid;
-    grid-template-columns: 29% 35% 5% 25%;
-    grid-template-rows: 200px 200px;
-      
-    grid-gap: 5px 5px;
-    width: 100%;
-    margin: 0px auto;		
-  }
-  .cover .feature:nth-child(1) {
-    grid-row: 1 ;
-    grid-column: 3 / span 7;
-  }
-  
-  .cover .feature:nth-child(2) {
-    grid-row: 2;
-    grid-column: 1;
-  }
-
-  .cover .feature:nth-child(3) {
-    grid-row: 2;
-    grid-column: 2 / span 1;
-  }
-
-  .cover .feature:nth-child(4) {
-    grid-row: 1;
-    grid-column: 1 / span 2;
-  }
-  
-  .cover .feature:nth-child(5) {  
-    grid-column: 3;
-    width: 240px;
-  }
-
+   }   
 
   /* bagian cover effect */ 
   
-  .feature_title {
-    
-    letter-spacing: 0px;
-    bottom: 0;
-    margin: 3px 10px;
-    color: rgb(255, 255, 255);    
-  }
   
-  .cover .feature:nth-child(1) h1{
-    font-size: 16px;
-  }
-  
-  .cover .feature:nth-child(1) .date{
-    font-size: 14px;
-    width: 50px;
-    padding: 6px 0px;    
-    margin-bottom: 14px;
-  }
-  .cover .feature:nth-child(1) p{
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  
-  .cover .feature:nth-child(1) .title_filter {
-    height: 28%;
-  }
-  
-  .cover .feature:nth-child(2) h1{
-    font-size: 14px;
-    padding-bottom: 0px ;
-    
-  }
-  .cover .feature:nth-child(2) .title_filter {
-    height: 28%;
-  }
-  .cover .feature:nth-child(2) .date {
-    font-size: 14px;
-    padding: 6px 0;
-    margin-bottom: 6px ;
-    width: 50px;	
-  }
-  
-  .cover .feature:nth-child(2) p {
-    font-size: 13px;
-    margin-bottom: 0px;
-  }
-  
-  .cover .feature:nth-child(3) h1{
-    font-size: 14px;
-    padding-bottom: 0px ;
-  }
-  
-  .cover .feature:nth-child(3) p{
-    font-size: 13px;
-    margin-bottom: 0px;
-      
-  }
-
-  
-  .cover .feature:nth-child(3) .date{
-    font-size: 14px;
-    width: 50px;
-    padding: 6px 0;
-    margin-bottom: 0;
-  }
-  .cover .feature:nth-child(3) .title_filter {
-    height: 28%;
-  }
-  
-  .cover .feature:nth-child(4) .title_filter {
-    height: 28%;
-  }
-  
-  .cover .feature:nth-child(4) h1{
-    font-size: 26px;
-    padding-top: 2px;
-  }
-  
-  .cover .feature:nth-child(4) .date{
-    font-size: 16px;
-    margin-bottom: 10px;
-    padding: 6px 0px;
-    width: 50px;
-  }
-  
-  .cover .feature:nth-child(5) h1{
-    font-size: 16px;		
-    
-  }
-  
-  .cover .feature:nth-child(5) .date{
-    font-size: 16px;
-    width: 50px;
-    padding: 6px 0px;
-    margin-bottom: 5px;
-  }
-  
-  .cover .feature:nth-child(5) p{
-    font-size: 13px;			 	
-  }
-  .cover .feature:nth-child(5) .title_filter {
-    height: 25%;
-  }
 
 }
   
@@ -398,6 +110,22 @@ margin-bottom: 12px;
   
   /* khusus contact */
 @media (max-width: 900px){
+  .container{
+    margin: 0 auto;
+    
+    width: auto;
+  }
+  .blog-slider {
+  
+    
+    max-width: 100%;
+    margin: auto;
+            
+    height: 400px;
+    width: 10%;
+    
+    transition: all 0.3s;
+ }
   .wrapper{
     background: #eaeaea;
     position: fixed;
@@ -487,6 +215,34 @@ margin-bottom: 12px;
 
 }
 
+@media only screen and (max-width: 800px) {
+	.cover{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.feature{
+		width: 100%;
+	}
+	.feature img{
+		height: 400px;
+	}
+	.categories{
+		display: flex;
+		flex-direction: column;
+	}
+	.card_category{
+		margin: 30px;
+	}
+	.desc_category {
+		height: 350px;
+	}
+	.card_category img {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+}
 
   @media (max-width: 800px){
     .health_txt h1{
@@ -501,6 +257,16 @@ margin-bottom: 12px;
 
   }
   @media (max-width: 796px){
+    .blog-slider {
+      max-width: 680px;
+      width: auto;
+      height: auto;
+   } 
+    .container{
+      margin: 0 auto;
+      
+      width: auto;
+    }
     .health_txt h1{
       font-size: 30px;    
       width: auto;
@@ -513,6 +279,22 @@ margin-bottom: 12px;
 
   }
   @media screen and (max-width: 750px){
+    .grid-container {      
+      display: block;
+      
+      grid-gap: 4px;	
+      
+    }
+    .feature_grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      -webkit-transition: 0.4s ease;
+      transition: 0.4s ease;
+      margin-top: 10px;
+    }
+ 
     .health_txt h1{
       font-size: 30px;    
       width: auto;
@@ -544,6 +326,12 @@ margin-bottom: 12px;
   }
   
   @media (max-width:720px){
+
+      .container{
+      margin: 0 auto;
+      padding: auto;
+      width: auto;
+    }
       .health {
       display: block;
     }
@@ -561,6 +349,7 @@ margin-bottom: 12px;
     }
   }
   @media (max-width:698px){
+  
     .health {
       display: block;
     }
@@ -578,6 +367,12 @@ margin-bottom: 12px;
     }
   }
   @media (max-width:670px){
+    .container{
+      margin: 0 auto;
+      padding: auto;
+      width: auto;
+    }
+    
     .health {
       display: block;
     }
@@ -592,6 +387,7 @@ margin-bottom: 12px;
     }
   }
   @media (max-width:634px){
+    
     .health_txt h1{
       font-size: 24px;    
       width: auto;
@@ -610,6 +406,20 @@ margin-bottom: 12px;
     }
   }
   @media (max-width: 500px){
+
+     
+    .grid-container {
+      display: block;
+      margin: 15px;
+      margin-top: 15px;
+          
+    }
+    .container{
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
+    
     .health_txt h1{
       font-size: 24px;    
       width: auto;

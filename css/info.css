@@ -9,8 +9,8 @@
 } 
 
 .box-articles, h1 p {
-    padding-left: 100px;
-    padding-top: 200px;
+    padding-left: 2vw;
+    padding-top: 14vw;
     font-family: 'Raleway', sans-serif; 
 }
 
@@ -18,7 +18,7 @@
    font-size: 38px;
    width: 490px;
    padding-bottom: 12px;       
-   
+   font-weight: 900;
 }
 
 .box-articles span{    
