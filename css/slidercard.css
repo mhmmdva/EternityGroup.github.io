@@ -25,6 +25,7 @@ html {
 .slider {
   margin-bottom: 30px;
   position: relative;
+  margin-top: 50px;
   
 }
 .slider .owl-item.active.center .slider-card {

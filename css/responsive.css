@@ -480,7 +480,9 @@
       padding: 0;
       font-size: 44px;
     }
-
+   .board {
+     column-count: 1;
+   }
    
   .card h5 {
     margin: 0;
