@@ -310,7 +310,7 @@ time, mark, audio, video {
       display: block;
       
       grid-gap: 4px;	
-      margin-top: 200px;
+      
       
     }
     .feature_grid img {
@@ -434,8 +434,6 @@ time, mark, audio, video {
     }
   }
   @media (max-width: 500px){
-
-     
     .grid-container {
       display: block;
       margin: 15px;
