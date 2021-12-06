@@ -434,6 +434,39 @@ time, mark, audio, video {
     }
   }
   @media (max-width: 500px){
+
+    .feature_effect h1{
+      font-size: 10px;
+      
+      width: 100%;
+      font-weight: bolder;
+    }
+    
+    .vaksintxt2 {
+      display: block;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 190px;
+      text-align: center;
+      width: auto;
+    }
+    .column-txt {
+      position: relative;	
+      font-weight: bolder;
+      font-family: "Raleway", sans-serif ;
+      bottom: 500px;
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px black;
+      text-align: center;
+      
+    } 
+
+    .column-txt h1 {
+      font-size: 14vw;
+      font-weight: 900;
+      
+    }
+    
+
     .grid-container {
       display: block;
       margin: 15px;
@@ -459,11 +492,35 @@ time, mark, audio, video {
     	width: 850px;  	
     
     }
+    
+ 
+    .body-post {
+      width: auto;    
+      display: flex;
 
+      transform: translateX(0);
+      padding: 0 0;
+      }
+      .post-title {
+        font-size: 2px;
+        margin: 16px 5rem;
+        text-transform: uppercase;
+        color: #1aa9fc;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        
+      }
+      .post {
+      margin: auto;
+      display: flex;
+      width: auto;
+      }
      .header-logo{
       padding: 0;
       font-size: 44px;
     }
+      
+      .board {
+      column-count: 1;
+      }
 
    
   .card h5 {
