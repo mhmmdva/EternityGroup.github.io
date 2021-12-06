@@ -28,10 +28,66 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+<!--navbar-->
+<link rel="stylesheet" href="../css/header.css">
+<!--dark mode-->
+  <link rel="stylesheet" href="../css/dark.css">
 </head>
-<body><br><br><br><br>
+<body>
+	<!--nav-->
+<!-- Navbar -->
+<header>     
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Eternity<span>Group</span></a></div>
+        <ul class="links">
+          <li><a href="../index.html">Beranda</a></li>
+          <li>
+             <a href="../news.html" class="desktop-link">Berita</a>
+          
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Berita <i class="fas fa-chevron-down"></i></label>
+            <ul>
+              <li><a href="../health.html">Kesehatan</a></li>
+              <li><a href="../vaksin.html">Vaksinasi</a></li>
+              
+            </ul>            
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Info</a>
+            <input type="checkbox" id="show-Info">
+            <label for="show-Info">Info <i class="fas fa-chevron-down"></i></label>
+            <ul>
+              <li><a href="../info.html">Data</a></li>              
+            </ul>
+          </li> 
+          <li>
+            <a href="#" class="desktop-link">Layanan</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Layanan <i class="fas fa-chevron-down"></i></label>
+            <ul>              
+              <li><a href="../faq.html">FAQ</a></li>                                  
+            </ul>
+          </li>
+          <li><a href="./feedback/index.html">Feedback</a></li>
+        </ul>
+ <li><label  id="dark-change"></label></li>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-sign-in-alt "></i></button>
+      </form>
 
-
+    </nav>
+  </div>
+</header>
+	<!--feedback-->
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form">
@@ -200,5 +256,7 @@
   gtag('config', 'UA-23581568-13');
 </script>
 
+<!--dark-->
+<script src="../js/dark.js"></script>
 </body>
 </html>

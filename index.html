@@ -30,6 +30,9 @@
 <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
 <link rel="stylesheet" type="text/css" href="./css/slidercard.css">
 
+<!--dark mode-->
+  <link rel="stylesheet" href="./css/dark.css">
+
 
     <title>Homepages - Eternity</title>
 
@@ -50,7 +53,7 @@
              <a href="./news.html" class="desktop-link">Berita</a>
           
             <input type="checkbox" id="show-features">
-            <label for="show-features">Berita</label>
+            <label for="show-features">Berita <i class="fas fa-chevron-down"></i></label>
             <ul>
               <li><a href="./health.html">Kesehatan</a></li>
               <li><a href="./vaksin.html">Vaksinasi</a></li>
@@ -59,8 +62,8 @@
           </li>
           <li>
             <a href="#" class="desktop-link">Info</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Info</label>
+            <input type="checkbox" id="show-Info">
+            <label for="show-Info">Info <i class="fas fa-chevron-down"></i></label>
             <ul>
               <li><a href="./info.html">Data</a></li>              
             </ul>
@@ -68,14 +71,14 @@
           <li>
             <a href="#" class="desktop-link">Layanan</a>
             <input type="checkbox" id="show-services">
-            <label for="show-services">Layanan</label>
+            <label for="show-services">Layanan <i class="fas fa-chevron-down"></i></label>
             <ul>              
               <li><a href="./faq.html">FAQ</a></li>                                  
             </ul>
           </li>
           <li><a href="./feedback/index.html">Feedback</a></li>
         </ul>
-
+        <li><label  id="dark-change"></label></li>
       </div>
       <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
       <form action="#" class="search-box">
@@ -310,6 +313,9 @@
 <script type="text/javascript" src="./js/cardsjs.js"></script>
 <script src="./js/api.js"></script>
 
+<!--dark mode-->
+
+<script src="./js/dark.js"></script>
 
  
 </body>

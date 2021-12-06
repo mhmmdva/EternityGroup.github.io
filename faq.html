@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Info<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">    
@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Quicksand:wght@402&family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <!--dark mode-->
+  <link rel="stylesheet" href="./css/dark.css">
 
     <title>FAQ - Eternity</title>
    </head>
@@ -37,7 +40,7 @@
              <a href="./news.html" class="desktop-link">Berita</a>
           
             <input type="checkbox" id="show-features">
-            <label for="show-features">Berita</label>
+            <label for="show-features">Berita <i class="fas fa-chevron-down"></i></label>
             <ul>
               <li><a href="./health.html">Kesehatan</a></li>
               <li><a href="./vaksin.html">Vaksinasi</a></li>
@@ -46,8 +49,8 @@
           </li>
           <li>
             <a href="#" class="desktop-link">Info</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Info</label>
+            <input type="checkbox" id="show-Info">
+            <label for="show-Info">Info <i class="fas fa-chevron-down"></i></label>
             <ul>
               <li><a href="./info.html">Data</a></li>              
             </ul>
@@ -55,13 +58,15 @@
           <li>
             <a href="#" class="desktop-link">Layanan</a>
             <input type="checkbox" id="show-services">
-            <label for="show-services">Layanan</label>
+            <label for="show-services">Layanan <i class="fas fa-chevron-down"></i></label>
             <ul>              
               <li><a href="./faq.html">FAQ</a></li>                                  
             </ul>
           </li>
-          
+          </li>
+          <li><a href="./feedback/index.html">Feedback</a></li>
         </ul>
+        <li><label  id="dark-change"></label></li>
       </div>
       <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
       <form action="#" class="search-box">
@@ -161,6 +166,11 @@
       });
     }
   </script>
+
+  <!--dark mode-->
+
+<script src="./js/dark.js"></script>
+
 
 </body>
 </html>
