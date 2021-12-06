@@ -147,7 +147,7 @@ body {
 /* =================UNTUK BAGIAN BERITA DI MID=========== */
   
   .body-post {
-	width: 1000px;
+	width: auto 100%;
 
 	display: flex;
 	align-items: center;
@@ -225,7 +225,7 @@ body {
 	  
   }
   .post-title {
-	font-size: 25px;
+	font-size: 2vw;
 	margin: 16px 5rem;
 	text-transform: uppercase;
 	color: #1aa9fc;

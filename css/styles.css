@@ -109,7 +109,7 @@ body{
 	background-color: #eaeaea;
 	border: 8px solid #eaeaea;
 	border-radius: 8px;
-	margin-top: 80px
+	margin-top: 140px;
 	
 }
 .cover {
@@ -288,7 +288,11 @@ body{
 	
 	margin-bottom: 40px;
 }
+.grid-containerHome {
+	display: grid;
+	grid-gap: 4px;	
 
+}
 .grid-container {
 	display: grid;
 	grid-gap: 4px;	
@@ -391,14 +395,14 @@ body{
 }
 
 .feature_effect h1{
-	font-size: 14px;
+	font-size: 1.2vw;
 	text-align: left;
 	width: 100%;
 	font-weight: bolder;
 }
 
 .feature_effect p {
-	font-size: 10px;
+	font-size: 1vw;
 	margin: 4px 0px;
 	text-align: left;
 }
