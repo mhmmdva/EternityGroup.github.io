@@ -66,6 +66,17 @@
       border-radius: 5px;
       
     } 
+    .column-txt {
+      display: block;	
+      font-weight: bolder;
+      font-family: "Raleway", sans-serif ;
+      bottom: 500px;
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px black;
+      text-align: center;
+      
+    } 
+
 }
 
    /* Responsive layout - makes a two column-layout instead of four columns */
@@ -414,7 +425,13 @@
     }
   }
   @media (max-width: 500px){
-
+    .vaksintxt2 {
+      display: block;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 190px;
+      text-align: center;
+      width: auto;
+    }
     .column-txt {
       position: relative;	
       font-weight: bolder;
