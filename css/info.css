@@ -1,12 +1,18 @@
 .info-body{
-    background-image: url(/img/bg_WPP_1.png);
     background-size: cover;
     
     position: relative;
     width: 100%;
     height: 550px;
     
-} 
+}
+
+.box-articles {
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
 .box-articles, h1 p {
     padding-left: 2vw;
@@ -94,6 +100,7 @@
 .container-canvas {
     width: 85%;
     position: relative;
+    margin-bottom: 100px;
 }
   
 .container-canvas h1 {
