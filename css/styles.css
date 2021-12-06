@@ -688,6 +688,11 @@ img#flag {
 	color: black;
 	
 }
+.vaksinbdy p {
+	font-family: "Quicksand", sans-serif;
+	color: black;
+	
+}
 .vaksintxt2 h2 {
 	font-size: 3vw;
 	font-weight: bolder;
@@ -699,6 +704,20 @@ img#flag {
 
 .vaksintxt2 {
 	display: block;
+	font-family: "Quicksand", sans-serif;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.vaksintxt2 a {
+	color:  rgb(255, 255, 255);
+	text-decoration: none;
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0 7px bisque;
+	width: 100%;
+	height: auto;
+	padding: 20px 40px;
+	font-weight: 900;
+	border-radius: 8px;
 	
 }
 /* ===========================BOTTOM TEXT====================== */
@@ -733,6 +752,7 @@ footer{
 	width: 100%;
 	padding-top: 40px;
 	color: #fff;
+	
 }
 .footer-content{
 	display: flex;
@@ -746,12 +766,14 @@ footer{
 	text-transform: capitalize;
 	line-height: 3rem;
 	font-size: 1.8rem;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .footer-content p{
 	margin: 10px auto;
 	line-height: 28px;
 	font-size: 14px;
 	max-width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .socials{
 	display: flex;
