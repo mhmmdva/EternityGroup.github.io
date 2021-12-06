@@ -172,7 +172,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: black;
+  
   
 }
 
@@ -182,14 +182,9 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 62px 55px 90px 55px;
-      background: conic-gradient(
-        #fd004c,
-        #fe9000,
-        #fff020,
-        #3edf4b,
-        #3363ff,
-        #b102b7,
-        #fd004c
+      background: linear-gradient(
+        #2cb2ff 1%,
+        #ececec 46%
     );
     animation: spin 1.5s infinite linear;
 }
@@ -212,9 +207,10 @@ iframe {
 .contact100-form-title {
   display: block;
   width: 100%;
-  font-family: Montserrat-Black;
+  font-family: 'Raleway', sans-serif;
   font-size: 39px;
-  color: #333333;
+  font-weight: 900;
+  color: #ffffff;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 59px;
