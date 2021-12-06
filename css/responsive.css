@@ -407,7 +407,23 @@
   }
   @media (max-width: 500px){
 
-     
+    .column-txt {
+      position: relative;	
+      font-weight: bolder;
+      font-family: "Raleway", sans-serif ;
+      bottom: 500px;
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px black;
+      text-align: center;
+      
+    } 
+
+    .column-txt h1 {
+      font-size: 14vw;
+      font-weight: 900;
+      
+    }
+    
     .grid-container {
       display: block;
       margin: 15px;
@@ -418,6 +434,7 @@
       margin: 0;
       padding: 0;
       width: auto;
+       display: block;
     }
     
     .health_txt h1{

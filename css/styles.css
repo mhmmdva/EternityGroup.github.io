@@ -663,21 +663,44 @@ img#flag {
 	position: relative;	
 	font-weight: bolder;
 	font-family: "Raleway", sans-serif ;
-	bottom: 24vw;
-	
-	color: white;
+	bottom: 50%;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px black;
 	text-align: center;
 } 
 
 .column-txt h1 {
-	font-size: 10vw;
+	font-size: 100px;
 	font-weight: 900;
+	
 }
 
 
+.vaksinbdy img {
+	max-width: 530px;
+	max-height: 320px;
+	
+}
+.vaksinbdy h2 {
+	font-size: 4vw;
+	font-weight: bolder;
+	font-family: "Quicksand", sans-serif;
+	color: black;
+	
+}
+.vaksintxt2 h2 {
+	font-size: 3vw;
+	font-weight: bolder;
+	font-family: "Quicksand", sans-serif;
+	color: black;
+	
 
+}
 
-
+.vaksintxt2 {
+	display: block;
+	
+}
 /* ===========================BOTTOM TEXT====================== */
 .bottom_bdy {
 	margin-bottom: 90px;
