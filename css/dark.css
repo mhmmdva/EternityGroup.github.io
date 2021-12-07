@@ -54,7 +54,7 @@ time, mark, audio, video {
         @media screen and (min-width:900px) {
           .respon{
             display: flex;
-            right: 70px;
+            right: 50px;
           }
 
    
