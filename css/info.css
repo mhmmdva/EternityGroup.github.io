@@ -169,16 +169,6 @@
     transition: 0.2s;             
 }
 /* DROP DOWN */
-
-
-@media screen and (max-width: 400px) {
-    .box-articles h1{
-   font-size: 38px;
-   width: 100%;
-   padding-bottom: 12px;       
-   font-weight: 900;
-}
-
 .box-articles span{    
     color: red;            
  }
@@ -189,3 +179,4 @@
     
 }
 }
+
