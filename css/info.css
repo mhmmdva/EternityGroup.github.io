@@ -28,7 +28,7 @@
 }
 
 .box-articles span{    
-    color: red;            
+    color: #30c3fd;            
  }
 .box-articles p{  
     width: 100%;
@@ -109,13 +109,17 @@
     font-size: 46px;
     margin-bottom: 50px;
     font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
 }
 
 .chart h2 {
     text-align: center;
     font-weight: bold;
     margin-bottom: 25px;
-    text-decoration: underline;
+    
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
 }
   
 #canvas {
@@ -169,9 +173,6 @@
     transition: 0.2s;             
 }
 /* DROP DOWN */
-.box-articles span{    
-    color: red;            
- }
 .box-articles p{  
     width: 100%;
     text-align: center;
