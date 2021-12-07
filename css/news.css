@@ -255,7 +255,7 @@ body {
 	color: black;
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 500px) {
 	  .post-btn {
 		font-size: 7px;
 		padding: 8px 10px;
