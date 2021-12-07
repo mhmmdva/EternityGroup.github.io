@@ -261,6 +261,13 @@ body {
 	transition: 0.4s ease;
   }
 
+
+
+  @media only screen and (max-width: 800px) {
+  	.body-post {
+	width: auto 100%;
+  }
+
 /* ===================== footer ===================== */
 footer{	
 	height: auto;
