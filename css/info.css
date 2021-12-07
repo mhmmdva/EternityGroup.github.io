@@ -34,7 +34,7 @@
     width: 100%;
     text-align: center;
     padding-left: 70px;
-    color: salmon;
+    font-weight: 900;
 }
 
 /* =============== MAIN BODY ================= */
@@ -186,6 +186,6 @@
     width: 100%;
     text-align: center;
     padding-left: 70px;
-    color: salmon;
+    
 }
 }
