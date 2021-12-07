@@ -120,6 +120,15 @@ time, mark, audio, video {
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
   @media screen and (max-width: 988px) {
+    .vaksintxt2 {
+      display:flexbox;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 190px;
+      margin-left: 125px;
+      margin-top: 50px;
+      text-align: center;
+      width: auto;
+    }
     .feature_effect p {
       font-size: 8px;
       margin: 1px 0px;
@@ -179,6 +188,15 @@ time, mark, audio, video {
   
   /* khusus contact */
 @media (max-width: 900px){
+  .vaksintxt2 {
+    display:flexbox;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 190px;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+  }
   .feature_effect p {
     font-size: 0.5vw;
     margin: 1px 0px;
@@ -349,6 +367,15 @@ time, mark, audio, video {
 
   }
   @media (max-width: 796px){
+    .vaksintxt2 {
+      display:flexbox;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 190px;
+      margin-left: 80px;
+      margin-top: 50px;
+      text-align: center;
+      width: auto;
+    }
     .feature_effect p {
       font-size: 1vw;
       margin: 1px 0px;
@@ -504,7 +531,15 @@ time, mark, audio, video {
     }
   }
   @media (max-width:698px){
-  
+    .vaksintxt2 {
+      display:flexbox;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 190px;
+      margin-left: 100px;
+      margin-top: 50px;
+      text-align: center;
+      width: auto;
+    }
     .health {
       display: block;
     }
@@ -522,6 +557,15 @@ time, mark, audio, video {
     }
   }
   @media (max-width:670px){
+    .vaksintxt2 {
+      display:flexbox;
+      font-family: "Quicksand", sans-serif;
+      margin-bottom: 190px;
+      margin-left: 110px;
+      margin-top: 50px;
+      text-align: center;
+      width: auto;
+    }
     .feature_effect p {
       font-size: 2vw;
       margin: 4px 0px;
@@ -563,6 +607,7 @@ time, mark, audio, video {
     }
   }
   @media (max-width:634px){
+    
     .feature_effect p {
       font-size: 2vw;
       margin: 4px 0px;
@@ -596,6 +641,15 @@ time, mark, audio, video {
     }
   }
   @media (max-width:600px){
+    .vaksintxt2 {
+      display: flexbox;
+     
+      margin-bottom: 190px;
+      margin-left: 130px;
+      margin-top: 50px;
+      text-align: center;
+      width: auto;
+    }
     
     .feature_effect h1{
       font-size: 20px;
@@ -619,9 +673,11 @@ time, mark, audio, video {
     }
     
     .vaksintxt2 {
-      display: block;
+      display:flexbox;
       font-family: "Quicksand", sans-serif;
       margin-bottom: 190px;
+      margin-left: 100px;
+      margin-top: 100px;
       text-align: center;
       width: auto;
     }

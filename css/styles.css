@@ -668,7 +668,10 @@ img#flag {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-
+.slider-card, b {
+	font-family: "Quicksand", sans-serif;
+	font-weight: bolder;
+}
 .column-txt {
 	position: relative;	
 	font-weight: bolder;
@@ -682,9 +685,13 @@ img#flag {
 .column-txt h1 {
 	font-size: 100px;
 	font-weight: 900;
-	
+	font-family: "", sans-serif ;
 }
 
+.vaksinbdy {
+	text-align: center;
+	
+}
 
 .vaksinbdy img {
 	max-width: 530px;
@@ -716,19 +723,29 @@ img#flag {
 	display: block;
 	font-family: "Quicksand", sans-serif;
 	margin-bottom: 100px;
+	margin-left: 25%;
 	text-align: center;
 }
 .vaksintxt2 a {
 	color:  rgb(255, 255, 255);
 	text-decoration: none;
-	background-color: rgb(0, 0, 0);
-	box-shadow: 0 7px bisque;
+	background-color: rgb(43, 160, 255);
+	box-shadow: 0 7px rgb(0, 94, 172);
 	width: 100%;
-	height: auto;
 	padding: 20px 40px;
 	font-weight: 900;
 	border-radius: 8px;
 	
+}
+.vaksintxt2 a:hover{
+	color:  rgb(255, 255, 255);
+	cursor: pointer;
+}
+.vaksintxt2 a:active{
+	color:  rgb(0, 0, 0);
+	top: 7px;
+	box-shadow: none;
+	transition: 0.3s;
 }
 /* ===========================BOTTOM TEXT====================== */
 .bottom_bdy {
