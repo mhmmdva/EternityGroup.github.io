@@ -266,7 +266,14 @@ body {
   @media only screen and (max-width: 800px) {
   	.body-post {
 	width: auto 100%;
+}
+	.post-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
   }
+}
 
 /* ===================== footer ===================== */
 footer{	
