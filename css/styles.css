@@ -90,11 +90,6 @@ body{
 
 /*========================TOP KONTEN NEWS===================*/
 
-
-
-
-
-
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
@@ -119,6 +114,7 @@ body{
 	margin-top: 140px;
 	
 }
+
 .cover {
 	display: grid;
 	grid-template-columns: 50% 25% 24%;
@@ -129,7 +125,7 @@ body{
 	margin: 0px auto;		
 }
 
-.feature {
+.feature{
 	position: relative;
 	overflow: hidden;  
 }
@@ -393,6 +389,7 @@ body{
 }
  
 
+
 .feature_effect {
 	position: absolute;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -402,14 +399,14 @@ body{
 }
 
 .feature_effect h1{
-	font-size: 1.2vw;
+	font-size: 11px;
 	text-align: left;
 	width: 100%;
 	font-weight: bolder;
 }
 
 .feature_effect p {
-	font-size: 1vw;
+	font-size: 10px;
 	margin: 4px 0px;
 	text-align: left;
 }
