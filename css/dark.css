@@ -19,9 +19,6 @@ time, mark, audio, video {
   
 }
 
-
-
-
           #dark-change{
             position: absolute;
             width: 45px;
@@ -51,6 +48,24 @@ time, mark, audio, video {
             background: #000;
             color: #fff;
         }
+        .box-articles h1{
+          color: black;
+       }
+       
+       .box-articles span{    
+           color: #30c3fd;            
+        }
+       .box-articles p{  
+           color: black;
+       }
+       .container_main{
+        
+        background: #000000;
+        
+      }
+       .container_main h2 {
+         color: rgb(255, 255, 255);
+       }
         @media screen and (min-width:900px) {
           .respon{
             display: flex;

@@ -563,6 +563,11 @@ video {
   }
 }
 @media (max-width: 698px) {
+  .footer-content span{
+    font-size: 3vw;
+    font-family: 'Quicksand', sans-serif;
+    color: #2FA9FB;
+  }
   .vaksintxt2 {
     display: flexbox;
     font-family: "Quicksand", sans-serif;
@@ -589,6 +594,11 @@ video {
   }
 }
 @media (max-width: 670px) {
+  .footer-content span{
+    font-size: 2.5vw;
+    font-family: 'Quicksand', sans-serif;
+    color: #2FA9FB;
+  }
   .vaksintxt2 {
     display: flexbox;
     font-family: "Quicksand", sans-serif;
@@ -672,6 +682,11 @@ video {
   }
 }
 @media (max-width: 600px) {
+  .footer-content span{
+    font-size: 3vw;
+    font-family: 'Quicksand', sans-serif;
+    color: #2FA9FB;
+  }
   .vaksintxt2 {
     display: flexbox;
 
@@ -695,6 +710,11 @@ video {
   }
 }
 @media (max-width: 500px) {
+  .footer-content span{
+    font-size: 3vw;
+    font-family: 'Quicksand', sans-serif;
+    color: #2FA9FB;
+  }
   .feature_effect h1 {
     font-size: 20px;
 
