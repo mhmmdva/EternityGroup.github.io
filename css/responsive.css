@@ -1,69 +1,124 @@
-html, body, div, span, applet, object, iframe,
-h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  
 }
 
-
-
-
-
-
-
 /* ============================ untuk bagian responsive ==============================*/
-@media screen and (max-width: 1250px){
-  
-  .wrapper nav{
+@media screen and (max-width: 1250px) {
+  .wrapper nav {
     max-width: 100%;
     padding: 0 20px;
   }
-  nav .content .links{
+  nav .content .links {
     margin-left: 30px;
   }
-  .content .links li a{
+  .content .links li a {
     padding: 8px 13px;
   }
-  .wrapper .search-box{
+  .wrapper .search-box {
     max-width: calc(100% - 100px);
   }
-  .wrapper .search-box input{
+  .wrapper .search-box input {
     padding: 0 100px 0 15px;
   }
-  .health_txt h1{
-    font-size: 3vw;    
+  .health_txt h1 {
+    font-size: 3vw;
     width: auto;
   }
-
 }
 
-
-
-
-@media(max-width: 1200px){
+@media (max-width: 1200px) {
   .feature_effect p {
     font-size: 8px;
     margin: 1px 0px;
     text-align: left;
   }
-  
-  .feature_effect h1{
+
+  .feature_effect h1 {
     font-size: 10px;
-    
+
     width: 100%;
     font-weight: bolder;
   }
@@ -76,120 +131,107 @@ time, mark, audio, video {
     height: 38%;
     border-radius: 8px;
   }
-  .health_txt h1{
-    font-size: 3vw;    
+  .health_txt h1 {
+    font-size: 3vw;
     width: auto;
   }
 
-  .responsive {  
+  .responsive {
     max-width: 100%;
     height: auto;
   }
- 
- 
 
-
- .feature_title p span {
-	margin: 0px 4px;
-	border-left: 1px solid #fff;
+  .feature_title p span {
+    margin: 0px 4px;
+    border-left: 1px solid #fff;
+  }
 }
 
-
+/* CARD======================== */
+@media (max-width: 990px) {
+  .content button {
+    padding: 0 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
 }
 
- 
-  /* CARD======================== */
-@media (max-width: 990px) {  
-    .content button{
-      padding: 0 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-      
-    } 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-   /* Responsive layout - makes a two column-layout instead of four columns */
-   @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
-    }
-    
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
-  @media screen and (max-width: 988px) {
-    .vaksintxt2 {
-      display:flexbox;
-      font-family: "Quicksand", sans-serif;
-      margin-bottom: 190px;
-      margin-left: 125px;
-      margin-top: 50px;
-      text-align: center;
-      width: auto;
-    }
-    .feature_effect p {
-      font-size: 8px;
-      margin: 1px 0px;
-      text-align: left;
-    }
-    
-    .feature_effect h1{
-      font-size: 1vw;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .title_effect {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      opacity: 50%;
-      width: 100%;
-      height: 38%;
-      border-radius: 8px;
-    }
-    .container{
-      margin: 0 auto;
-      
-      width: auto;
-    }
-    .health_txt h1{
-      font-size: 30px;    
-      width: auto;
-      margin-top: 40px;
-      margin-left: 20px;
-    }
-    .health img{
-      max-width: 600px;
-      width: 100%;
-      height: auto;
-    }
-
-    .container {
-      margin: 0 120px;
-      padding: 0 0px;
-      width: 988px;
-      
-    }
-    .blog-slider {
-      max-width: 680px;
-      height: 400px;
-   }   
-
-  /* bagian cover effect */ 
-  
-  
-
-}
-  
-  
-  
-  /* khusus contact */
-@media (max-width: 900px){
+@media screen and (max-width: 988px) {
   .vaksintxt2 {
-    display:flexbox;
+    display: flexbox;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 190px;
+    margin-left: 125px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+  }
+  .feature_effect p {
+    font-size: 8px;
+    margin: 1px 0px;
+    text-align: left;
+  }
+
+  .feature_effect h1 {
+    font-size: 1vw;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 38%;
+    border-radius: 8px;
+  }
+  .container {
+    margin: 0 auto;
+
+    width: auto;
+  }
+  .health_txt h1 {
+    font-size: 30px;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .health img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    margin: 0 120px;
+    padding: 0 0px;
+    width: 988px;
+  }
+  .blog-slider {
+    max-width: 680px;
+    height: 400px;
+  }
+
+  /* bagian cover effect */
+}
+
+/* khusus contact */
+@media (max-width: 900px) {
+  .vaksintxt2 {
+    display: flexbox;
     font-family: "Quicksand", sans-serif;
     margin-bottom: 190px;
     margin-left: 150px;
@@ -202,10 +244,10 @@ time, mark, audio, video {
     margin: 1px 0px;
     text-align: left;
   }
-  
-  .feature_effect h1{
+
+  .feature_effect h1 {
     font-size: 10px;
-    
+
     width: 100%;
     font-weight: bolder;
   }
@@ -218,54 +260,52 @@ time, mark, audio, video {
     height: 38%;
     border-radius: 8px;
   }
-  .container{
+  .container {
     margin: 0 auto;
-    
+
     width: auto;
   }
   .blog-slider {
-  
-    
     max-width: 100%;
     margin: auto;
-            
+
     height: 400px;
     width: 10%;
-    
+
     transition: all 0.3s;
- }
-  .wrapper{
+  }
+  .wrapper {
     background: #eaeaea;
     position: fixed;
     width: 100%;
     z-index: 100;
-    top: 0;    
-    }
-    .content .logo a{
-      color: rgb(31, 26, 26);
-      font-size: 30px;
-      font-weight: 800;
-      text-decoration: none;
-      font-family: "Raleway", sans-serif;
-    }
-  
-  .health_txt h1{
-    font-size: 30px;    
+    top: 0;
+  }
+  .content .logo a {
+    color: rgb(31, 26, 26);
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .health_txt h1 {
+    font-size: 30px;
     width: auto;
     height: auto;
     margin-top: 20px;
   }
-  .health img{
+  .health img {
     max-width: 500px;
     height: auto;
   }
-  .wrapper .menu-icon{
+  .wrapper .menu-icon {
     display: block;
   }
-  .wrapper #show-menu:checked ~ .menu-icon i::before{
+  .wrapper #show-menu:checked ~ .menu-icon i::before {
     content: "\f00d";
   }
-  nav .content .links{
+  nav .content .links {
     display: block;
     position: fixed;
     background: #ffffff9c;
@@ -279,27 +319,27 @@ time, mark, audio, video {
     padding-bottom: 100px;
     transition: all 0.3s ease;
   }
-  nav #show-menu:checked ~ .content .links{
+  nav #show-menu:checked ~ .content .links {
     left: 0%;
   }
-  .content .links li{
+  .content .links li {
     margin: 15px 20px;
   }
   .content .links li a,
-  .content .links li label{
+  .content .links li label {
     line-height: 40px;
     font-size: 20px;
     display: block;
     padding: 8px 18px;
     cursor: pointer;
   }
-  .content .links li a.desktop-link{
+  .content .links li a.desktop-link {
     display: none;
   }
 
   /* dropdown responsive code start */
   .content .links ul,
-  .content .links ul ul{
+  .content .links ul ul {
     position: static;
     opacity: 1;
     visibility: visible;
@@ -309,452 +349,436 @@ time, mark, audio, video {
   }
   .content .links #show-features:checked ~ ul,
   .content .links #show-services:checked ~ ul,
-  .content .links #show-items:checked ~ ul{
+  .content .links #show-items:checked ~ ul {
     max-height: 100vh;
   }
-  .content .links ul li{
+  .content .links ul li {
     margin: 7px 20px;
   }
-  .content .links ul li a{
+  .content .links ul li a {
     font-size: 18px;
     line-height: 30px;
-    border-radius: 5px!important;
+    border-radius: 5px !important;
   }
-
 }
 
 @media only screen and (max-width: 800px) {
-  
-	.cover{
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
-	.feature{
-		width: 100%;
-	}
-	.feature img{
-		height: 400px;
-	}
-	.categories{
-		display: flex;
-		flex-direction: column;
-	}
-	.card_category{
-		margin: 30px;
-	}
-	.desc_category {
-		height: 350px;
-	}
-	.card_category img {
-		left: 50%;
-		transform: translateX(-50%);
-	}
-
+  .cover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .feature {
+    width: 100%;
+  }
+  .feature img {
+    height: 400px;
+  }
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_category {
+    margin: 30px;
+  }
+  .desc_category {
+    height: 350px;
+  }
+  .card_category img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
-  @media (max-width: 800px){
-    
-    .health_txt h1{
-      font-size: 30px;    
-      width: auto;
-    }
-    .health img{
-      max-width: 450px;
-      width: 100%;
-      height: auto;
-    }
-
+@media (max-width: 800px) {
+  .health_txt h1 {
+    font-size: 30px;
+    width: auto;
   }
-  @media (max-width: 796px){
-    .vaksintxt2 {
-      display:flexbox;
-      font-family: "Quicksand", sans-serif;
-      margin-bottom: 190px;
-      margin-left: 80px;
-      margin-top: 50px;
-      text-align: center;
-      width: auto;
-    }
-    .feature_effect p {
-      font-size: 1vw;
-      margin: 1px 0px;
-      text-align: left;
-    }
-    
-    .feature_effect h1{
-      font-size: 1vw;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .title_effect {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      opacity: 50%;
-      width: 100%;
-      height: 38%;
-      border-radius: 8px;
-    }
-    .blog-slider {
-      max-width: 680px;
-      width: auto;
-      height: auto;
-   } 
-    .container{
-      margin: 0 auto;
-      
-      width: auto;
-    }
-    .health_txt h1{
-      font-size: 30px;    
-      width: auto;
-    }
-    .health img{
-      max-width: 450px;
-      width: 100%;
-      height: auto;
-    }
-
+  .health img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
   }
-  @media screen and (max-width: 750px){
-    .feature_effect p {
-      font-size: 2vw;
-      margin: 4px 0px;
-      text-align: left;
-    }
-    
-    .feature_effect h1{
-      font-size: 20px;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .title_effect {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      opacity: 50%;
-      width: 100%;
-      height: 28%;
-      border-radius: 8px;
-    }
-    .grid-container {      
-      display: block;
-      
-      grid-gap: 4px;	
-      
-      
-    }
-    .feature_grid img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 8px;
-      -webkit-transition: 0.4s ease;
-      transition: 0.4s ease;
-      margin-top: 10px;
-    }
- 
-    .health_txt h1{
-      font-size: 30px;    
-      width: auto;
-    }
-    .health img{
-      max-width: 450px;
-      width: 100%;
-      height: auto;
-    }
-
-    .container{
-      width: 100%;
-    }
-    .header-mainbg img{
-      margin-left: 20px;
-      width: 62px;
-    }
-     .header-logo{
-      padding: 0;
-      font-size: 36px;
-    }
-
-    .board {
-      column-count: 2;
-    }
-    .card span {
-      font-size: 2.5rem;
-    }
+}
+@media (max-width: 796px) {
+  .vaksintxt2 {
+    display: flexbox;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 190px;
+    margin-left: 80px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
   }
-  
-  @media (max-width:720px){
-    .feature_effect p {
-      font-size: 2vw;
-      margin: 4px 0px;
-      text-align: left;
-    }
-    
-    .feature_effect h1{
-      font-size: 20px;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .title_effect {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      opacity: 50%;
-      width: 100%;
-      height: 28%;
-      border-radius: 8px;
-    }
-      .container{
-      margin: 0 auto;
-      padding: auto;
-      width: auto;
-    }
-      .health {
-      display: block;
-    }
-    .health_txt h1{
-      font-size: 26px;    
-      width: 690px auto;
-      text-align: center;
-      margin-left: 0;
-    }
-    .health img{
-      margin-top: 40px;
-      max-width: 720px;
-      width: 100%;
-      height: 340px;
-    }
+  .feature_effect p {
+    font-size: 1vw;
+    margin: 1px 0px;
+    text-align: left;
   }
-  @media (max-width:698px){
-    .vaksintxt2 {
-      display:flexbox;
-      font-family: "Quicksand", sans-serif;
-      margin-bottom: 190px;
-      margin-left: 100px;
-      margin-top: 50px;
-      text-align: center;
-      width: auto;
-    }
-    .health {
-      display: block;
-    }
-    .health_txt h1{
-      font-size: 26px;    
-      width: 100%;
-      text-align: center;
-      margin-left: 0;
-    }
-    .health img{
-      margin-top: 20px;
-      max-width: 698px;
-      width: 100%;
-      height: 300px;
-    }
-  }
-  @media (max-width:670px){
-    .vaksintxt2 {
-      display:flexbox;
-      font-family: "Quicksand", sans-serif;
-      margin-bottom: 190px;
-      margin-left: 110px;
-      margin-top: 50px;
-      text-align: center;
-      width: auto;
-    }
-    .feature_effect p {
-      font-size: 2vw;
-      margin: 4px 0px;
-      text-align: left;
-    }
-    
-    .feature_effect h1{
-      font-size: 20px;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .title_effect {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      opacity: 50%;
-      width: 100%;
-      height: 28%;
-      border-radius: 8px;
-    }
-    .container{
-      margin: 0 auto;
-      padding: auto;
-      width: auto;
-    }
-    
-    .health {
-      display: block;
-    }
-    .health_txt h1{
-      font-size: 4vw;    
-      width: auto;
-    }
-    .health img{
-      max-width: 670px;
-      width: 100%;
-      height: 350px;
-    }
-  }
-  @media (max-width: 634px){
-    
-    .feature_effect p {
-      font-size: 2vw;
-      margin: 4px 0px;
-      text-align: left;
-    }
-    
-    .feature_effect h1{
-      font-size: 20px;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .title_effect {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      opacity: 50%;
-      width: 100%;
-      height: 28%;
-      border-radius: 8px;
-    }
-     
-    .health_txt h1{
-      font-size: 24px;    
-      width: auto;
-    }
-    .health img{
-      max-width: auto;
-      width: 100%;
-      height: 290px;
-    }
-  }
-  @media (max-width:600px){
-    .vaksintxt2 {
-      display: flexbox;
-     
-      margin-bottom: 190px;
-      margin-left: 130px;
-      margin-top: 50px;
-      text-align: center;
-      width: auto;
-    }
-    
-    .feature_effect h1{
-      font-size: 20px;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-  @media (max-width: 500px){
-   
-    .feature_effect h1{
-      font-size: 20px;
-      
-      width: 100%;
-      font-weight: bolder;
-    }
-    
-    .vaksintxt2 {
-      display:flexbox;
-      font-family: "Quicksand", sans-serif;
-      margin-bottom: 190px;
-      margin-left: 100px;
-      margin-top: 100px;
-      text-align: center;
-      width: auto;
-    }
-    .column-txt {
-      position: relative;	
-      font-weight: bolder;
-      font-family: "Raleway", sans-serif ;
-      bottom: 500px;
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px black;
-      text-align: center;
-      
-    } 
 
-    .column-txt h1 {
-      font-size: 14vw;
-      font-weight: 900;
-      
-    }
-    
+  .feature_effect h1 {
+    font-size: 1vw;
 
-    .grid-container {
-      display: block;
-      margin: 15px;
-      margin-top: 15px;
-          
-    }
-    .container{
-      margin: 0;
-      padding: 0;
-      width: auto;
-    }
-    
-    .health_txt h1{
-      font-size: 15px;    
-      width: auto;
-    }
-    .health img{
-      max-width: auto;
-      width: 100%;
-      height: 240px;
-    }
-    .header-mainbg {    	    	    	
-    	width: 850px;  	
-    
-    }
-    
- 
-    .body-post {
-      width: auto;    
-      display: flex;
+    width: 100%;
+    font-weight: bolder;
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 38%;
+    border-radius: 8px;
+  }
+  .blog-slider {
+    max-width: 680px;
+    width: auto;
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
 
-      transform: translateX(0);
-      padding: 0 0;
-      }
-      .post-title {
-        font-size: 2px;
-        margin: 16px 5rem;
-        text-transform: uppercase;
-        color: #1aa9fc;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        
-      }
-      .post {
-      margin: auto;
-      display: flex;
-      width: 100%;
-      }
-     .header-logo{
-      padding: 0;
-      font-size: 44px;
-    }
-      
-      .board {
-      column-count: 1;
-      }
+    width: auto;
+  }
+  .health_txt h1 {
+    font-size: 30px;
+    width: auto;
+  }
+  .health img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .feature_effect p {
+    font-size: 2vw;
+    margin: 4px 0px;
+    text-align: left;
+  }
 
-   
+  .feature_effect h1 {
+    font-size: 20px;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 28%;
+    border-radius: 8px;
+  }
+  .grid-container {
+    display: block;
+
+    grid-gap: 4px;
+  }
+  .feature_grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    margin-top: 10px;
+  }
+
+  .health_txt h1 {
+    font-size: 30px;
+    width: auto;
+  }
+  .health img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .header-mainbg img {
+    margin-left: 20px;
+    width: 62px;
+  }
+  .header-logo {
+    padding: 0;
+    font-size: 36px;
+  }
+
+  .board {
+    column-count: 2;
+  }
+  .card span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .feature_effect p {
+    font-size: 2vw;
+    margin: 4px 0px;
+    text-align: left;
+  }
+
+  .feature_effect h1 {
+    font-size: 20px;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 28%;
+    border-radius: 8px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: auto;
+    width: auto;
+  }
+  .health {
+    display: block;
+  }
+  .health_txt h1 {
+    font-size: 26px;
+    width: 690px auto;
+    text-align: center;
+    margin-left: 0;
+  }
+  .health img {
+    margin-top: 40px;
+    max-width: 720px;
+    width: 100%;
+    height: 340px;
+  }
+}
+@media (max-width: 698px) {
+  .vaksintxt2 {
+    display: flexbox;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 190px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+  }
+  .health {
+    display: block;
+  }
+  .health_txt h1 {
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .health img {
+    margin-top: 20px;
+    max-width: 698px;
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (max-width: 670px) {
+  .vaksintxt2 {
+    display: flexbox;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 190px;
+    margin-left: 110px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+  }
+  .feature_effect p {
+    font-size: 2vw;
+    margin: 4px 0px;
+    text-align: left;
+  }
+
+  .feature_effect h1 {
+    font-size: 20px;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 28%;
+    border-radius: 8px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: auto;
+    width: auto;
+  }
+
+  .health {
+    display: block;
+  }
+  .health_txt h1 {
+    font-size: 4vw;
+    width: auto;
+  }
+  .health img {
+    max-width: 670px;
+    width: 100%;
+    height: 350px;
+  }
+}
+@media (max-width: 634px) {
+  .feature_effect p {
+    font-size: 2vw;
+    margin: 4px 0px;
+    text-align: left;
+  }
+
+  .feature_effect h1 {
+    font-size: 20px;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 28%;
+    border-radius: 8px;
+  }
+
+  .health_txt h1 {
+    font-size: 24px;
+    width: auto;
+  }
+  .health img {
+    max-width: auto;
+    width: 100%;
+    height: 290px;
+  }
+}
+@media (max-width: 600px) {
+  .vaksintxt2 {
+    display: flexbox;
+
+    margin-bottom: 190px;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+  }
+
+  .feature_effect h1 {
+    font-size: 20px;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .feature_effect h1 {
+    font-size: 20px;
+
+    width: 100%;
+    font-weight: bolder;
+  }
+
+  .vaksintxt2 {
+    display: flexbox;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 190px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: auto;
+  }
+  .column-txt {
+    position: relative;
+    font-weight: bolder;
+    font-family: "Raleway", sans-serif;
+    bottom: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+  }
+
+  .column-txt h1 {
+    font-size: 14vw;
+    font-weight: 900;
+  }
+
+  .grid-container {
+    display: block;
+    margin: 15px;
+    margin-top: 15px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .health_txt h1 {
+    font-size: 15px;
+    width: auto;
+  }
+  .health img {
+    max-width: auto;
+    width: 100%;
+    height: 240px;
+  }
+  .header-mainbg {
+    width: 850px;
+  }
+
+  .body-post {
+    width: auto;
+    display: flex;
+
+    transform: translateX(0);
+    padding: 0 0;
+  }
+  .post-title {
+    font-size: 2px;
+    margin: 16px 5rem;
+    text-transform: uppercase;
+    color: #1aa9fc;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .post {
+    margin: auto;
+    display: flex;
+    width: 100%;
+  }
+  .header-logo {
+    padding: 0;
+    font-size: 44px;
+  }
+
+  .board {
+    column-count: 1;
+  }
+
   .card h5 {
     margin: 0;
     font-size: 1rem;
@@ -766,31 +790,29 @@ time, mark, audio, video {
   }
   .card i {
     font-size: 1rem;
-
+  }
 }
 
-}
-
-@media screen and (max-width: 400px){
-  .wrapper nav{
+@media screen and (max-width: 400px) {
+  .wrapper nav {
     padding: 0 10px;
   }
-  .content .logo a{
+  .content .logo a {
     font-size: 27px;
   }
-  .wrapper .search-box{
+  .wrapper .search-box {
     max-width: calc(100% - 70px);
   }
-  .wrapper .search-box .go-icon{
+  .wrapper .search-box .go-icon {
     width: 30px;
     right: 0;
   }
-  .wrapper .search-box input{
+  .wrapper .search-box input {
     padding-right: 30px;
   }
 }
 
-.dummy-text{
+.dummy-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -800,14 +822,12 @@ time, mark, audio, video {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-.dummy-text h2{
+.dummy-text h2 {
   font-size: 45px;
   margin: 5px 0;
 }
 
-
-  @media (max-width: 427px){
-    
+@media (max-width: 427px) {
   .card h5 {
     margin: 0;
     font-size: 1rem;
@@ -819,34 +839,10 @@ time, mark, audio, video {
   }
   .card i {
     font-size: 1rem;
-}
-  
-}
-
-  @media (max-width: 375px){
-    
-
-    .card h5 {
-      margin: 0;
-      font-size: 1rem;
-    }
-    .card span {
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-    }
-    .card i {
-      font-size: 1rem;
   }
-    
-  }
+}
 
- 
-
-  @media (max-width: 360px){
-
-  
-
+@media (max-width: 375px) {
   .card h5 {
     margin: 0;
     font-size: 1rem;
@@ -858,11 +854,23 @@ time, mark, audio, video {
   }
   .card i {
     font-size: 1rem;
+  }
 }
-    
-  }
 
-  @media (max-width: 280px){
- 
-
+@media (max-width: 360px) {
+  .card h5 {
+    margin: 0;
+    font-size: 1rem;
   }
+  .card span {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .card i {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 280px) {
+}
