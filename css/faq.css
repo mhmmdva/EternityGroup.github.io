@@ -179,7 +179,9 @@ span ,.question {
   }
 }
 @media (max-width: 538px) {
-
+  .accordion{
+    padding: 25px;
+  }
   .accordion-text li p{
     width: 98%;
   }
@@ -187,15 +189,12 @@ span ,.question {
     height: auto;
   overflow-y: auto;
   }
-  .accordion .image-box{
-  height: 100%;
-  width: 100%;
+  .containerr{
+   display: flex;
+ 
+   margin-top: 80px
 }
-.accordion .image-box img{
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
+
 }
 
 
