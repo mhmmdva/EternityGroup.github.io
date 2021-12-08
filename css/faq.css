@@ -189,6 +189,15 @@ span ,.question {
     height: auto;
   overflow-y: auto;
   }
+  .accordion .image-box{
+  height: 100%;
+  width: 100%;
+}
+.accordion .image-box img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 }
 
 
