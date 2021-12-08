@@ -191,7 +191,7 @@ span ,.question {
   }
   .containerr{
    display: flex;
- 
+ padding: auto;
    margin-top: 80px
 }
 
