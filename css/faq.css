@@ -14,7 +14,7 @@ body{
 }
 .containerr{
    display: flex;
-   padding: 40px;
+  
    margin-top: 80px
 }
 ::selection{
