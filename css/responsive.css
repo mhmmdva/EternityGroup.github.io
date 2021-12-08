@@ -189,15 +189,23 @@ video {
     width: 100%;
     font-weight: bolder;
   }
+  
+  .feature_effect p{
+    font-size: 1vw;
+
+    width: 100%;
+    
+  }
   .title_effect {
     position: absolute;
     bottom: 0;
     background-color: #333;
     opacity: 50%;
     width: 100%;
-    height: 38%;
+    height: 40%;
     border-radius: 8px;
   }
+  
   .container {
     margin: 0 auto;
 
@@ -224,7 +232,35 @@ video {
     max-width: 680px;
     height: 400px;
   }
-
+  .cover .feature:nth-child(1) h1{
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+  .cover .feature:nth-child(1) .title_filter {
+    height: 28%;
+  }
+  .cover .feature:nth-child(2) h1{
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+  .cover .feature:nth-child(1) .title_filter {
+    height: 28%;
+  }
+  
+  .cover .feature:nth-child(3) h1{
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+  .cover .feature:nth-child(3) .title_filter {
+    height: 30%;
+  }
+  .cover .feature:nth-child(5) h1{
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+  .cover .feature:nth-child(5) .title_filter {
+    height: 30%;
+  }
   /* bagian cover effect */
 }
 
@@ -402,6 +438,20 @@ video {
   }
 }
 @media (max-width: 796px) {
+  .coverGridBdy {
+    display: block;
+    
+  }
+  .title_effect {
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 25%;
+    border-radius: 8px;
+    
+  }
   .vaksintxt2 {
     display: flexbox;
     font-family: "Quicksand", sans-serif;
@@ -418,20 +468,18 @@ video {
   }
 
   .feature_effect h1 {
-    font-size: 1vw;
+    font-size: 2vw;
 
     width: 100%;
     font-weight: bolder;
   }
-  .title_effect {
-    position: absolute;
-    bottom: 0;
-    background-color: #333;
-    opacity: 50%;
+  .feature_effect p {
+    font-size: 1.5vw;
+
     width: 100%;
-    height: 38%;
-    border-radius: 8px;
+    
   }
+ 
   .blog-slider {
     max-width: 680px;
     width: auto;
@@ -709,7 +757,10 @@ video {
     max-width: 100%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 500px){
+  .cover_Bdy {
+    margin-top: 90px;
+  }
   .footer-content span{
     font-size: 3vw;
     font-family: 'Quicksand', sans-serif;
