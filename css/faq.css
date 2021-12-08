@@ -179,9 +179,15 @@ span ,.question {
   }
 }
 @media (max-width: 538px) {
-
+  .accordion{
+    padding: 25px;
+  }
   .accordion-text li p{
     width: 98%;
+  }
+  .accordion .accordion-text .faq-text {
+    height: auto;
+  overflow-y: auto;
   }
 }
 
