@@ -19,7 +19,7 @@ time, mark, audio, video {
   
 }
 
-          #dark-change{
+        header  #dark-change{
             position: absolute;
             width: 45px;
             height: 25px;
@@ -28,7 +28,7 @@ time, mark, audio, video {
             border: 2px solid;
             border-radius: 20px;
         }
-          #dark-change:before{
+        header  #dark-change:before{
             position: absolute;
             content: '';
             width:20px;
@@ -40,7 +40,7 @@ time, mark, audio, video {
             cursor: pointer;
             transition: 0.4s;
         }
-          #dark-change.active:before{
+       header   #dark-change.active:before{
             left: 24px;
             background: #fff;
         }
