@@ -353,11 +353,7 @@ body{
   grid-row: 2;
   width: 100%;
   }
-  .item7 {	
-	grid-column: 7;
-  grid-row: 1 / span 2;
-  width: 100%;
-  }
+
 
   .itemLoad {
 	  
@@ -525,7 +521,9 @@ body{
   text-transform: uppercase;
   border-radius: 8px;
 }
-
+.container_main  h2{
+	color: black;
+  }
 .board {
     column-count: 3;
     column-gap: 1rem;

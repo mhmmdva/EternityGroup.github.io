@@ -90,20 +90,21 @@ body {
 	transition: 0.4s ease;
 	object-fit: contain;
 }
- .cards, h4 {
-	font-size: 20px;
-	
+ .cards h4 {
+	font-size: 14px;
+	font-family: "Raleway",sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 900;
+	
  } 
- .cards, p {
+ .cards_date p {
 	font-size: 12px;
 	font-family: "Raleway", sans-serif;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	text-align: center;
-	
-	font-weight: 600;
+	margin-top: 20px;
+	font-weight: 100;
  } 
 .cards:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

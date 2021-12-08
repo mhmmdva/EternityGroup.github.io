@@ -293,13 +293,13 @@ video {
     width: auto;
   }
   .feature_effect p {
-    font-size: 0.5vw;
+    font-size: 1vw;
     margin: 1px 0px;
     text-align: left;
   }
 
   .feature_effect h1 {
-    font-size: 10px;
+    font-size: 1vw;
 
     width: 100%;
     font-weight: bolder;
@@ -453,6 +453,57 @@ video {
   }
 }
 @media (max-width: 796px) {
+  
+  .cover .feature:nth-child(1) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(1) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(1) .title_filter{	
+    height: 25%;
+  }
+  .cover .feature:nth-child(2) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(2) h1{	
+    font-size: 3vw;
+  }
+  .cover .feature:nth-child(2) .title_filter{	
+    height: 25%;
+  }
+
+.cover .feature:nth-child(3) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(3) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(4) p{	
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(4) h1{	
+  font-size: 3vw;
+}
+.cover .feature:nth-child(4) .title_filter{	
+  height: 20%;
+}
+.cover .feature:nth-child(5) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(5) h1{	
+	font-size: 3vw;
+}
+.cover .feature:nth-child(5) .title_filter{	
+	height: 23%;
+}
+
+
   .coverGridBdy {
     display: block;
     
@@ -477,7 +528,7 @@ video {
     width: auto;
   }
   .feature_effect p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin: 1px 0px;
     text-align: left;
   }
@@ -488,12 +539,7 @@ video {
     width: 100%;
     font-weight: bolder;
   }
-  .feature_effect p {
-    font-size: 1.5vw;
 
-    width: 100%;
-    
-  }
  
   .blog-slider {
     max-width: 680px;
@@ -521,6 +567,7 @@ video {
 
     height: auto;
   }
+  
 
 }
 @media screen and (max-width: 750px) {
@@ -588,6 +635,55 @@ video {
   .card span {
     font-size: 2.5rem;
   }
+  
+  .cover .feature:nth-child(1) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(1) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(1) .title_filter{	
+    height: 25%;
+  }
+  .cover .feature:nth-child(2) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(2) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(2) .title_filter{	
+    height: 25%;
+  }
+
+.cover .feature:nth-child(3) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(3) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(4) p{	
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(4) h1{	
+  font-size: 4vw;
+}
+.cover .feature:nth-child(4) .title_filter{	
+  height: 20%;
+}
+.cover .feature:nth-child(5) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(5) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(5) .title_filter{	
+	height: 23%;
+}
 }
 
 @media (max-width: 720px) {
@@ -632,6 +728,8 @@ video {
     width: 100%;
     height: 340px;
   }
+
+  
 }
 @media (max-width: 698px) {
   .footer-content span{
@@ -663,6 +761,55 @@ video {
     width: 100%;
     height: 300px;
   }
+  
+  .cover .feature:nth-child(1) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(1) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(1) .title_filter{	
+    height: 25%;
+  }
+  .cover .feature:nth-child(2) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(2) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(2) .title_filter{	
+    height: 25%;
+  }
+
+.cover .feature:nth-child(3) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(3) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(4) p{	
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(4) h1{	
+  font-size: 4vw;
+}
+.cover .feature:nth-child(4) .title_filter{	
+  height: 20%;
+}
+.cover .feature:nth-child(5) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(5) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(5) .title_filter{	
+	height: 23%;
+}
 }
 @media (max-width: 670px) {
   .footer-content span{
@@ -718,6 +865,7 @@ video {
     width: 100%;
     height: 290px;
   }
+  
 }
 @media (max-width: 634px) {
   .feature_effect p {
@@ -751,6 +899,56 @@ video {
     width: 100%;
     height: 290px;
   }
+
+  
+  .cover .feature:nth-child(1) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(1) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(1) .title_filter{	
+    height: 25%;
+  }
+  .cover .feature:nth-child(2) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(2) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(2) .title_filter{	
+    height: 25%;
+  }
+
+.cover .feature:nth-child(3) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(3) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(4) p{	
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(4) h1{	
+  font-size: 4vw;
+}
+.cover .feature:nth-child(4) .title_filter{	
+  height: 20%;
+}
+.cover .feature:nth-child(5) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(5) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(5) .title_filter{	
+	height: 23%;
+}
 }
 @media (max-width: 600px) {
   .health_txt h1 {
@@ -788,6 +986,57 @@ video {
     flex: 100%;
     max-width: 100%;
   }
+
+
+  .cover .feature:nth-child(1) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(1) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(1) .title_filter{	
+    height: 25%;
+  }
+  .cover .feature:nth-child(2) p{	
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  .cover .feature:nth-child(2) h1{	
+    font-size: 4vw;
+  }
+  .cover .feature:nth-child(2) .title_filter{	
+    height: 25%;
+  }
+
+.cover .feature:nth-child(3) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(3) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(4) p{	
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(4) h1{	
+  font-size: 4vw;
+}
+.cover .feature:nth-child(4) .title_filter{	
+  height: 20%;
+}
+.cover .feature:nth-child(5) p{	
+	font-size: 2vw;
+  margin-bottom: 10px;
+}
+.cover .feature:nth-child(5) h1{	
+	font-size: 4vw;
+}
+.cover .feature:nth-child(5) .title_filter{	
+	height: 23%;
+}
+
 }
 @media (max-width: 500px){
   .cover_Bdy {
