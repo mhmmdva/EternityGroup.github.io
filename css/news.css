@@ -90,19 +90,20 @@ body {
 	transition: 0.4s ease;
 	object-fit: contain;
 }
- .cards, h4 {
-	font-size: 20px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ .cards h4 {
+	font-size: 14px;
+	font-family: "Raleway",sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 900;
- } 
- .cards, p {
-	font-size: 12px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	text-transform: uppercase;
-	text-align: center;
 	
+ } 
+ .cards_date p {
+	font-size: 12px;
+	font-family: "Raleway", sans-serif;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 20px;
 	font-weight: 100;
  } 
 .cards:hover {

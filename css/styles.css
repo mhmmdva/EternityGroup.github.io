@@ -123,7 +123,7 @@ body{
 	grid-gap: 5px 5px;
 	width: 100%;
 	
-	margin-top: 100px;		
+			
 }
 
 .feature{
@@ -160,14 +160,21 @@ body{
 
 .feature_title {
 	position: absolute;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Raleway", sans-serif;
+	
 	letter-spacing: 1px;
 	bottom: 0;
 	margin: 5px 10px;
 	color: rgb(255, 255, 255);
 	
 }
-
+.feature_title h1{
+	
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	
+	
+}
 .date {
 	position: relative;
 	width: 50px;
@@ -346,11 +353,7 @@ body{
   grid-row: 2;
   width: 100%;
   }
-  .item7 {	
-	grid-column: 7;
-  grid-row: 1 / span 2;
-  width: 100%;
-  }
+
 
   .itemLoad {
 	  
@@ -393,23 +396,26 @@ body{
 
 .feature_effect {
 	position: absolute;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Raleway", sans-serif;
 	bottom: 0;
 	margin: 5px 10px;
 	color: rgb(255, 255, 255);	
 }
 
 .feature_effect h1{
-	font-size: 11px;
+	font-size: 1.1vw;
 	text-align: left;
 	width: 100%;
-	font-weight: bolder;
+	font-weight: 600;
+	font-family: "Raleway", sans-serif;
 }
 
 .feature_effect p {
 	font-size: 10px;
 	margin: 4px 0px;
 	text-align: left;
+	font-family: "Raleway", sans-serif;
+	text-transform: none;
 }
 
 .feature_effect a {
@@ -432,7 +438,7 @@ body{
 	font-size: 17px;
 	margin: 5px;
 	padding-top: 16px;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 .menu_grid li{
@@ -515,7 +521,9 @@ body{
   text-transform: uppercase;
   border-radius: 8px;
 }
-
+.container_main  h2{
+	color: black;
+  }
 .board {
     column-count: 3;
     column-gap: 1rem;
