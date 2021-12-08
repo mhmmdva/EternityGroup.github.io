@@ -148,6 +148,20 @@ video {
     margin: 0px 4px;
     border-left: 1px solid #fff;
   }
+
+  .cover .feature:nth-child(2) h1{
+    font-size: 16px;
+  }
+  .cover .feature:nth-child(2) .title_filter {
+    height: 34%;
+  }
+  .cover .feature:nth-child(1) .title_filter {
+    height: 30%;
+  }
+
+  .cover .feature:nth-child(5) h1{
+    line-height: 1;
+  }
 }
 
 @media (max-width: 1050px){
@@ -158,6 +172,7 @@ video {
   .health_txt img {
     width: 50px;
   }
+  
 }
 /* CARD======================== */
 @media (max-width: 990px) {
@@ -170,6 +185,30 @@ video {
     padding: 0 10px;
     margin: 10px 0;
     border-radius: 5px;
+  }
+  .cover .feature:nth-child(2) .title_filter {
+    height: 34%;
+  }
+  .cover .feature:nth-child(2) h1{
+    font-size: 1.5vw;
+  }
+  .cover .feature:nth-child(3) h1{
+    font-size: 1vw;
+  }
+  .cover .feature:nth-child(3) .title_filter{
+    height: 28%;
+  }
+  .cover .feature:nth-child(3) p{
+    margin-bottom: 6px;
+  }
+  .cover .feature:nth-child(5) h1{
+    font-size: 1.2vw;
+  }
+  .cover .feature:nth-child(5) .title_filter{
+    height: 28%;
+  }
+  .cover .feature:nth-child(5) p{
+    margin-bottom: 6px;
   }
 }
 
@@ -251,13 +290,13 @@ video {
   }
   .cover .feature:nth-child(1) h1{
     font-size: 1.2vw;
-    line-height: 1;
+    line-height: 1.2;
   }
   .cover .feature:nth-child(1) .title_filter {
     height: 28%;
   }
   .cover .feature:nth-child(2) h1{
-    font-size: 1.2vw;
+    font-size: 1.7vw;
     line-height: 1;
   }
   .cover .feature:nth-child(1) .title_filter {

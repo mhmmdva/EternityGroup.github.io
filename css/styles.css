@@ -94,7 +94,7 @@ body{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 1px;
-	margin-top: 100px;
+	margin-top: 140px;
 	padding: 1px;
 
 
@@ -296,7 +296,7 @@ body{
 	background-color: #eaeaea;
 	border: 6px solid #eaeaea;
 	border-radius: 8px;
-	margin-bottom: 100px;
+	
 
 }
 .grid-containerHome {
@@ -713,14 +713,14 @@ img#flag {
 	font-family: "Raleway", sans-serif ;
 	bottom: 50%;
 	color: rgb(255, 255, 255);
-	text-shadow: 1px 1px black;
+	text-shadow: 0 10px black;
 	text-align: center;
 } 
 
 .column-txt h1 {
 	font-size: 100px;
 	font-weight: 900;
-	font-family: "", sans-serif ;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .vaksinbdy {
@@ -736,8 +736,9 @@ img#flag {
 .vaksinbdy h2 {
 	font-size: 4vw;
 	font-weight: bolder;
-	font-family: "Quicksand", sans-serif;
-
+	font-family: Arial, Helvetica, sans-serif;	
+	margin: 0;
+	
 	
 }
 .vaksinbdy p {
@@ -748,9 +749,10 @@ img#flag {
 .vaksintxt2 h2 {
 	font-size: 3vw;
 	font-weight: bolder;
-	font-family: "Quicksand", sans-serif;
-	color: black;
-	
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	margin-bottom: 20px;
+
 
 }
 
@@ -782,7 +784,93 @@ img#flag {
 	box-shadow: none;
 	transition: 0.3s;
 }
-/* ===========================BOTTOM TEXT====================== */
+/* ===========================BAGIAN BOX====================== */
+/* BAGIAN DI VAKSINASI */
+.main_boxHealth {
+	background-color: #b3daff;
+	border-radius: 25px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.main_boxHealth h1{
+	text-align: center;	
+	color: #030407;
+	font-family: "Raleway", sans-serif;
+	text-transform: capitalize;
+	font-size: 2vw;
+	font-weight: 900;	
+	margin: 20px;
+	width: 100%;
+}
+.main_boxHealth p {
+	text-align: center;
+	margin: 20px;
+	font-family: "Quicksand", sans-serif;
+}
+.main_boxHealth span {
+	border-bottom: 4px solid rgb(255, 255, 255);
+	border-radius: 8px;
+}
+
+/* BAGIAN DI BERANDA */
+
+
+.main_box {
+	background-color: #b3daff;
+	border-radius: 25px;
+	margin: 80px 0;
+	width: 100%;
+	height: auto;
+}
+
+.main_box h1{
+	text-align: center;	
+	color: #030407;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-size: 2vw;
+	font-weight: 900;	
+	margin: 20px;
+	width: 100%;
+}
+.main_box p {
+	text-align: center;
+	margin: 20px;
+	font-family: "Quicksand", sans-serif;
+}
+.main_box span {
+	border-bottom: 4px solid rgb(255, 255, 255);
+	border-radius: 8px;
+}
+.main_boxes img {
+	float: right;
+	margin-right: 150px;
+}
+
+.main_boxes {
+	margin: 20px;
+}
+.main_boxes h3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	margin-left: 26px;
+}
+.boxesList ul {
+	
+	margin-left: 5%;
+	margin-top: 10px;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 900;
+}
+.boxesList span {
+	border-bottom: none;
+}
+.main_boxes ul li {
+	margin-left: 30px;
+	font-weight: 500;
+}
+
 .bottom_bdy {
 	margin-bottom: 90px;
 }
