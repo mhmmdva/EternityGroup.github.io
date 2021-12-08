@@ -179,9 +179,7 @@ span ,.question {
   }
 }
 @media (max-width: 538px) {
-  .accordion{
-    padding: 25px;
-  }
+
   .accordion-text li p{
     width: 98%;
   }
