@@ -871,18 +871,70 @@ img#flag {
 	font-weight: 500;
 }
 
-.bottom_bdy {
-	margin-bottom: 90px;
+/*========== BAGIAN BAWAHNYA COVID ===========*/
+.boxHome {
+	display: grid;
+	width: 100%;
+	
 }
-.bottom_txt h1{
-	text-align: center;
-	font-size: 2.5vw;
+.boxesHome1 {
+	width: 45%;
+	background-color: #b3daff;
+	border-radius: 25px;	
+	height: auto;
+	margin-bottom: 20px;
+}
+.boxesHome1 h1 {
+	color: white;
+	font-size: 2.2vw;
+	font-family: "Raleway", sans-serif;
 	font-weight: 900;
-	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}
+.boxesHome1 p {
+	
+	font-size: 1vw;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+	text-align: left;
+	margin: 25px;
+}
+
+.boxesHome2 {
+	width: 45%;
+	background-color: #b3daff;
+	border-radius: 25px;	
+	height: auto;
 	
 }
 
+.boxesHome2 p {
+	
+	font-size: 1vw;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+	text-align: left;
+	margin: 25px;
+}
 
+
+.boxesHome2 h1 {
+	color: white;
+	font-size: 2.2vw;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.boxesHome3{
+	
+	position: absolute;
+	
+	width: 100%;
+	
+}
 
 
 
