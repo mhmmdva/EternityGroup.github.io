@@ -34,8 +34,8 @@ body{
   margin-bottom: 90px;
 }
 .accordion .image-box{
-  height: 360px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
 .accordion .image-box img{
   height: 100%;
