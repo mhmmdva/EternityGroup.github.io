@@ -14,7 +14,7 @@ body{
 }
 .containerr{
    display: flex;
-  
+   padding: 40px;
    margin-top: 80px
 }
 ::selection{
@@ -190,7 +190,10 @@ span ,.question {
   overflow-y: auto;
   }
 
-
+  .accordion .image-box{
+    height: 100%;
+    width: 100%;
+  }
 }
 
 
