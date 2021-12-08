@@ -122,7 +122,8 @@ body{
 		
 	grid-gap: 5px 5px;
 	width: 100%;
-	margin: 0px auto;		
+	
+	margin-top: 100px;		
 }
 
 .feature{
