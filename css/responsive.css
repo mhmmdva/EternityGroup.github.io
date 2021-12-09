@@ -176,9 +176,28 @@ video {
 }
 /* CARD======================== */
 @media (max-width: 990px) {
+  .main_boxes{
+    float: left;
+    display: block;
+  }
+  .main_boxes img {
+    margin-right: 25vw;
+    
+  }
+  .boxesList ul{
+    float: right;
+           
+  }
+
+  .boxesList li{
+    float: right;
+    width: 100%;        
+  }
+
   .health_txt h1 {
     font-size: 3vw;
     width: auto;
+
   }
 
   .content button {
@@ -492,7 +511,14 @@ video {
   }
 }
 @media (max-width: 796px) {
-  
+  .main_box h1 {
+    font-size: 3vw;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .main_box p {
+    font-size: 2vw;
+  }
   .cover .feature:nth-child(1) p{	
     font-size: 2vw;
     margin-bottom: 10px;
@@ -606,7 +632,7 @@ video {
 
     height: auto;
   }
-  
+
 
 }
 @media screen and (max-width: 750px) {
@@ -771,6 +797,11 @@ video {
   
 }
 @media (max-width: 698px) {
+ 
+  .main_boxes img {
+    margin-right: 20vw;
+    
+  }
   .footer-content span{
     font-size: 3vw;
     font-family: 'Quicksand', sans-serif;
@@ -851,6 +882,10 @@ video {
 }
 }
 @media (max-width: 670px) {
+  .main_boxes img {
+    margin-right: 20vw;
+    
+  }
   .footer-content span{
     font-size: 2.5vw;
     font-family: 'Quicksand', sans-serif;
@@ -1077,7 +1112,31 @@ video {
 }
 
 }
+
+@media (max-width: 558px){
+  .main_boxes img {
+    
+    margin: 0;
+    margin-right: 20px;
+  }
+  
+}
 @media (max-width: 500px){
+  
+  .main_box h1 {
+    font-size: 3vw;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .main_box p {
+    font-size: 2.5vw;
+  }
+  .main_boxes img {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
   .cover_Bdy {
     margin-top: 190px;
   }

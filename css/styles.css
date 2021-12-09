@@ -836,7 +836,7 @@ img#flag {
 }
 .main_boxes img {
 	float: right;
-	margin-right: 150px;
+	
 }
 
 .main_boxes {
@@ -864,8 +864,12 @@ img#flag {
 
 /*========== BAGIAN BAWAHNYA COVID ===========*/
 .boxHome {
-	display: grid;
+	display: inline-block;
 	width: 100%;
+	float: right;
+}	
+.boxHomebdy {
+	display: grid;
 	
 }
 .boxesHome1 {
@@ -874,6 +878,9 @@ img#flag {
 	border-radius: 25px;	
 	height: auto;
 	margin-bottom: 20px;
+	display: inline-block;
+	max-width: 500px;
+	max-height: 600px;
 }
 .boxesHome1 h1 {
 	color: white;
@@ -897,7 +904,8 @@ img#flag {
 	background-color: #b3daff;
 	border-radius: 25px;	
 	height: auto;
-	
+	max-width: 500px;
+	max-height: 600px;
 }
 
 .boxesHome2 p {
@@ -917,14 +925,20 @@ img#flag {
 	font-weight: 900;
 	text-align: center;
 	margin-top: 20px;
+	
 }
 
 .boxesHome3{
-	
-	position: absolute;
-	
+
 	width: 100%;
-	
+	background-image: url("/img/coronaBg.png");
+	background-size: cover;
+	max-width: 500px;
+	max-height: 600px;
+	border-radius: 25px;
+	margin: 0 20px;
+	padding: 0;
+
 }
 
 
