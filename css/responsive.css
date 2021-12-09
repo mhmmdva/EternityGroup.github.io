@@ -1146,9 +1146,9 @@ video {
 	color: #030407;
 	font-family: "Raleway", sans-serif;
 	text-transform: capitalize;
-	font-size: 3vw;
+	font-size: 15px;
 	font-weight: 900;	
-	margin: 20px;
+	margin: 8px;
 	
 }
 .main_boxHealth p {
@@ -1200,10 +1200,10 @@ video {
     display: flexbox;
     font-family: "Quicksand", sans-serif;
     margin-bottom: 190px;
-    margin-left: 100px;
+    margin-left: 1px;
     margin-top: 100px;
     text-align: center;
-    width: auto;
+    width: 100%;
   }
   .column-txt {
     position: relative;
