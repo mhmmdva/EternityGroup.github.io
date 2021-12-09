@@ -203,10 +203,7 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 62px 55px 90px 55px;
-      background: linear-gradient(
-        #2cb2ff 1%,
-        #ececec 46%
-    );
+  background-color: #eaeaea;
     animation: spin 1.5s infinite linear;
 }
 
@@ -228,10 +225,10 @@ iframe {
 .contact100-form-title {
   display: block;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 39px;
-  font-weight: 900;
-  color: #ffffff;
+  font-weight: bold;
+  color: #000000;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 59px;

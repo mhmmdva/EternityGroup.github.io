@@ -12,7 +12,7 @@
    border-radius: 25px;
    height: 400px;
    width: 100%;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    transition: all 0.3s;
 }
 
@@ -120,9 +120,9 @@
    font-weight: 500;
 }
  .blog-slider__title {
-   font-family: "Roboto", sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 24px;
-   font-weight: 700;
+   font-weight: 100;
    color: #1aa9fc;
 
    margin-bottom: 20px;
