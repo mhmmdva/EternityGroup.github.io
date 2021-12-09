@@ -14,7 +14,7 @@ body{
 }
 .containerr{
    display: flex;
-   padding: 20px;
+   padding: 40px;
    margin-top: 80px
 }
 ::selection{
@@ -180,7 +180,7 @@ span ,.question {
 }
 @media (max-width: 538px) {
   .accordion{
-    padding: 25px;
+    padding: 2px;
   }
   .accordion-text li p{
     width: 98%;
@@ -194,7 +194,11 @@ span ,.question {
     height: 100%;
     width: 100%;
   }
-
+  .containerr{
+   display: flex;
+   
+   margin-top: 80px
+}
 }
 
 
