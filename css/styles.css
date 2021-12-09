@@ -694,8 +694,7 @@ img#flag {
 	margin-top: 8px;
 	vertical-align: middle;
 	width: 100%;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+
 }
 .slider-card, b {
 	font-family: "Quicksand", sans-serif;
@@ -703,18 +702,20 @@ img#flag {
 }
 .columns {
 	position: relative;	
-	font-weight: bolder;	
-	bottom: 50%;
-	color: rgb(255, 255, 255);
-	text-shadow: 0 10px black;
+	font-weight: bolder;		
 	text-align: center;
+	margin-bottom: 90px;
 } 
 
 .columns h1 {
-	font-size: 100px;
+	position: absolute;
+	font-size: 70px;
 	font-weight: 900;
+	bottom: 90px;
+	left: 6%;
 	font-family: Arial, Helvetica, sans-serif;
-	
+	color: rgba(255, 255, 255, 0.733);
+	text-shadow: 0 6px rgba(0, 0, 0, 0.404);
 }
 
 .vaksinbdy {
@@ -786,6 +787,7 @@ img#flag {
 	margin: 0;
 	width: 100%;
 	height: auto;
+	
 }
 .main_boxHealth h1{
 	text-align: center;	
@@ -796,10 +798,11 @@ img#flag {
 	font-weight: 900;	
 	margin: 20px;
 	width: 100%;
+	
 }
 .main_boxHealth p {
-	text-align: center;
-	margin: 20px;
+	text-align: left;
+	margin: 40px;
 	font-family: "Quicksand", sans-serif;
 }
 .main_boxHealth span {
@@ -984,6 +987,11 @@ footer{
 	line-height: 3rem;
 	font-size: 1.8rem;
 	font-family: 'Quicksand', sans-serif;
+	
+}
+.footer-content a {
+	text-decoration: none;
+	color: white;
 }
 .footer-content p{
 	margin: 10px auto;
