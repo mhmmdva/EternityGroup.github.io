@@ -14,7 +14,7 @@ body{
 }
 .containerr{
    display: flex;
-   padding: 5px;
+   padding: 20px;
    margin-top: 140px;
    margin-bottom: 90px;
 }
