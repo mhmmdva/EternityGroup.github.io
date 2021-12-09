@@ -1166,11 +1166,22 @@ video {
     font-size: 2.5vw;
   }
   .main_boxes img {
-    width: 400px;
+    width: 100%;
     margin: 0;
     padding: 0;
-}
-
+  }
+  .main_box h3 {
+    font-size: 20px;
+  }
+  .boxesList ul{
+    float: right;
+    font-size: 15px;
+  }
+  .boxesList li{
+    float: right;
+    width: 100%;
+    font-size: 10px;        
+  }
   .cover_Bdy {
     margin-top: 190px;
   }
@@ -1180,8 +1191,7 @@ video {
     color: #2FA9FB;
   }
   .feature_effect h1 {
-    font-size: 20px;
-
+    font-size: 12px;
     width: 100%;
     font-weight: bolder;
   }
