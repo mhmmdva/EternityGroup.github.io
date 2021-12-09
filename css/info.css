@@ -21,10 +21,10 @@
 }
 
 .box-articles h1{
-   font-size: 35px;
+   font-size: 58px;
    width: 100%;
    padding-bottom: 12px;       
-   font-weight: 900;
+   font-weight: 600;
    text-align: center;
 }
 
@@ -34,7 +34,7 @@
 .box-articles p{  
     width: 100%;
     text-align: center;
-    font-weight: 900;
+    
 }
 
 /* =============== MAIN BODY ================= */
