@@ -1229,6 +1229,7 @@ video {
     margin: 0;
     padding: 0;
     width: auto;
+    justify-content: center;
   }
 
   .health_txt h1 {
