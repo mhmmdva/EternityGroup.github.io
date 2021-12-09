@@ -14,7 +14,7 @@ body{
 }
 .containerr{
    display: flex;
-
+   padding: 40px;
    margin-top: 80px
 }
 ::selection{
@@ -193,6 +193,9 @@ span ,.question {
   .accordion .image-box{
     height: 100%;
     width: 100%;
+  }
+  .containerr{
+    padding: 10px;
   }
 }
 
