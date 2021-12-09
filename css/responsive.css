@@ -1139,6 +1139,10 @@ video {
 }
 @media (max-width: 500px){
   /* ===========================BAGIAN BOX====================== */
+    .columns h1 {
+        margin-right: 90px;
+        
+    }
 /* BAGIAN DI VAKSINASI */
 
 .main_boxHealth h1{
@@ -1186,7 +1190,7 @@ video {
     margin-top: 190px;
   }
   .footer-content span{
-    font-size: 3vw;
+    font-size: 1vw;
     font-family: 'Roboto', sans-serif;
     color: #2FA9FB;
   }

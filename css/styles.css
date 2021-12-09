@@ -700,9 +700,10 @@ img#flag {
 	font-size: 70px;
 	font-weight: bold;
 	bottom: 90px;
-	left: 10%;	
-	color: rgba(43, 32, 32, 0.733);
-	
+	text-align: center;
+	margin-left: 100px;
+	color: rgba(255, 255, 255, 0.904);
+	text-shadow: 0 1px black;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -960,8 +961,7 @@ footer{
 	right: 0;
 	background: #111;
 	height: auto;
-	width: 100%;
-	padding-top: 40px;
+	width: 100%;	
 	color: #fff;
 	
 	
@@ -972,6 +972,7 @@ footer{
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	padding-top: 40px;
 }
 .footer-content h3{
 	font-weight: 400;
