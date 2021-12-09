@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 header {
 	margin-bottom: 150px;
-  padding bottom: 50px;
+  padding-bottom: 50px;
 }
 
   
@@ -57,14 +57,14 @@ header {
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Roboto',sans-serif;
   }
   .content .logo span{
     color: #2cb2ff;
     font-size: 14px;
     font-weight: 800;
     text-decoration: none;
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Roboto',sans-serif;
     }
   .content .links li{
     list-style: none;
@@ -79,7 +79,7 @@ header {
     border-radius: 5px;
     transition: all 0.3s ease;
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .content .links li label{
     display: none;
@@ -214,7 +214,7 @@ header {
         font-size: 30px;
         font-weight: 800;
         text-decoration: none;
-        font-family: "Raleway", sans-serif;
+        font-family: "Roboto", sans-serif;
       }
     .wrapper .menu-icon{
       display: block;
