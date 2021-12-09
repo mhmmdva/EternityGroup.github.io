@@ -50,6 +50,9 @@
 </script>
 <!-- /GetButton.io widget -->
 
+<!--AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Berita - Eternity</title>
 </head>
 <!-- Navbar -->
@@ -196,7 +199,7 @@
 <div class="dio">    
   <div class=" container bodyCards">
             
-    <div class="cards">
+    <div class="cards" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <img src="./img/swab.png" alt="Avatar" style="width:100%">    
         <h4>TEST SWAB GRATIS SUDAH ADA DI BERBAGAI TEMPAT</h4> 
         <div class="cards_date">
@@ -205,7 +208,7 @@
     </div>
     
 
-    <div class="cards">
+    <div class="cards" data-aos="fade-left" data-aos-offset="310">
       <img src="./img/vaksin9.png" alt="Avatar" style="width:100%">    
         <h4>JENIS-JENIS VAKSIN SAAT INI YANG WAJIB DIKETAHUI</h4> 
         <div class="cards_date">
@@ -213,7 +216,7 @@
         </div>
     </div>
 
-    <div class="cards">
+    <div class="cards" data-aos="fade-down-right">
       <img src="./img/kesehatan1.png" alt="Avatar" style="width:100%">    
         <h4>MANFAAT SAYURAN DEMI KESEHATAN TUBUH</h4> 
         <div class="cards_date">
@@ -221,7 +224,7 @@
         </div>
     </div>
 
-    <div class="cards">
+    <div class="cards" data-aos="fade-down-left">
       <img src="./img/masker.png" alt="Avatar" style="width:100%">    
         <h4>KITA HARUS SEDIA MASKER DI MASA PANDEMI</h4> 
         <div class="cards_date">
@@ -229,7 +232,7 @@
         </div>
     </div>
     
-    <div class="cards">
+    <div class="cards" data-aos="flip-left">
       <img src="./img/bersih-bersih.png" alt="Avatar" style="width:100%">    
         <h4>EFEK JIKA TIDAK MEMBERSIHKAN RUMAH</h4> 
         <div class="cards_date">
@@ -237,14 +240,14 @@
         </div>
     </div>
 
-    <div class="cards">
+    <div class="cards" data-aos="flip-right">
       <img src="./img/makanan_sehat.png" alt="Avatar" style="width:100%">    
         <h4>KENALI JENIS MAKANAN YANG SEHAT BAGI TUBUH ANDA</h4> 
         <div class="cards_date">
           <p>6  November 2021</p>    
         </div>
     </div>
-    <div class="cards">
+    <div class="cards" data-aos="zoom-in">
       <img src="./img/WHO1.png" alt="Avatar" style="width:100%">    
         <h4>WHO MEMBERITAHU CARA MENCEGAH COVID-19</h4> 
         <div class="cards_date">
@@ -252,7 +255,7 @@
         </div>
     </div>
 
-    <div class="cards">
+    <div class="cards" data-aos="zoom-in-up">
       <img src="./img/buah.png" alt="Avatar" style="width:100%">    
         <h4>BUAH TERBORONG HABIS DI PASAR KARENA MASA PENDEMI</h4> 
         <div class="cards_date">
@@ -308,7 +311,12 @@
 
 <!--dark mode-->
 
-<script src="./js/dark.js"></script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
