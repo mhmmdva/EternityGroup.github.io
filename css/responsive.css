@@ -1025,6 +1025,22 @@ video {
 }
 }
 @media (max-width: 600px) {
+  .main_boxHealth h1{
+    text-align: center;	
+    color: #030407;
+    font-family: "Raleway", sans-serif;
+    text-transform: capitalize;
+    font-size: 3vw;
+    font-weight: 900;	
+    margin: 20px;
+    
+  }
+  .main_boxHealth p {
+    text-align: center;
+    margin: 20px;
+    font-size: 3vw;
+    font-family: "Quicksand", sans-serif;
+  }
   .health_txt h1 {
     font-size: 25px;
     width: 50%;
@@ -1122,7 +1138,25 @@ video {
   
 }
 @media (max-width: 500px){
-  
+  /* ===========================BAGIAN BOX====================== */
+/* BAGIAN DI VAKSINASI */
+
+.main_boxHealth h1{
+	text-align: center;	
+	color: #030407;
+	font-family: "Raleway", sans-serif;
+	text-transform: capitalize;
+	font-size: 3vw;
+	font-weight: 900;	
+	margin: 20px;
+	
+}
+.main_boxHealth p {
+	text-align: center;
+	margin: 20px;
+  font-size: 3vw;
+	font-family: "Quicksand", sans-serif;
+}
   .main_box h1 {
     font-size: 3vw;
     margin: 0;

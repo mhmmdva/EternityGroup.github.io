@@ -932,6 +932,7 @@ img#flag {
 .boxesHome3{	
 	position: absolute;
 	float: left;
+
 	width: 100%;
 	background-image: url("/img/coronaBg.png");
 	background-size: cover;
