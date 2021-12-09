@@ -604,6 +604,7 @@ img#flag {
     letter-spacing: 1px;
     padding-top: 25px;
 	font-family: "Roboto", sans-serif ;
+	text-align: center;
 }
 .card i {
     font-size: 1rem;
