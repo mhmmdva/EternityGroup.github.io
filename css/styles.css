@@ -873,7 +873,7 @@ img#flag {
 	
 }
 .boxesHome1 {
-	width: 45%;
+	width: 100%;
 	background-color: #b3daff;
 	border-radius: 25px;	
 	height: auto;
@@ -900,12 +900,13 @@ img#flag {
 }
 
 .boxesHome2 {
-	width: 45%;
+	width: 100%;
 	background-color: #b3daff;
 	border-radius: 25px;	
 	height: auto;
 	max-width: 500px;
 	max-height: 600px;
+	float: right;
 }
 
 .boxesHome2 p {
@@ -928,8 +929,9 @@ img#flag {
 	
 }
 
-.boxesHome3{
-
+.boxesHome3{	
+	position: absolute;
+	float: left;
 	width: 100%;
 	background-image: url("/img/coronaBg.png");
 	background-size: cover;
@@ -1028,5 +1030,6 @@ footer{
   opacity: .4;
   font-weight: 200;
 }
+
 
 

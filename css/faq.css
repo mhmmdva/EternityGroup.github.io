@@ -14,7 +14,7 @@ body{
 }
 .containerr{
    display: flex;
-   padding: 40px;
+   padding: 5px;
    margin-top: 80px
 }
 ::selection{
@@ -29,9 +29,9 @@ body{
   justify-content: space-between;
   background-image: linear-gradient(147deg, #2cb2ff 0%, #ececec 74%);
   border-radius: 25px;
-  padding: 45px 90px 45px 60px;
+  
   transform: translateX(15%);
-  margin-bottom: 90px;
+
 }
 .accordion .image-box{
   height: 100%;
@@ -180,7 +180,7 @@ span ,.question {
 }
 @media (max-width: 538px) {
   .accordion{
-    padding: 25px;
+    padding: 2px;
   }
   .accordion-text li p{
     width: 98%;
@@ -189,6 +189,16 @@ span ,.question {
     height: auto;
   overflow-y: auto;
   }
+
+  .accordion .image-box{
+    height: 100%;
+    width: 100%;
+  }
+  .containerr{
+   display: flex;
+   
+   margin-top: 80px
+}
 }
 
 
