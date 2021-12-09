@@ -806,7 +806,7 @@ img#flag {
 .main_box {
 	background-color: #b3daff;
 	border-radius: 25px;
-	margin: 80px 0;
+	margin: 80px 20px;
 	width: 100%;
 	height: auto;
 }

@@ -263,6 +263,20 @@ video {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 988px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+  .main_boxes img {
+    margin-right: 140px;
+  }
   .main_boxHealth h1{
     text-align: center;	
     
@@ -370,6 +384,20 @@ video {
 
 /* khusus contact */
 @media (max-width: 900px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+  .main_boxes img {
+    margin-right: 140px;
+  }
   .vaksintxt2 {
     display: flexbox;    
     margin-bottom: 190px;
@@ -538,6 +566,18 @@ video {
 }
 
 @media (max-width: 800px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .health_txt h1 {
     font-size: 30px;
     width: auto;
@@ -560,13 +600,17 @@ video {
 }
 @media (max-width: 796px) {
   .main_box h1 {
-    font-size: 3vw;
+    font-size: 30px;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
   }
   .main_box p {
-    font-size: 2vw;
+    font-size: 16px;
   }
+
   .main_boxHealth h1 {
     font-size: 30px;
   }
@@ -691,6 +735,18 @@ video {
 
 }
 @media screen and (max-width: 750px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .feature_effect p {
     font-size: 2vw;
     margin: 4px 0px;
@@ -807,6 +863,18 @@ video {
 }
 
 @media (max-width: 720px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .feature_effect p {
     font-size: 2vw;
     margin: 4px 0px;
@@ -852,6 +920,18 @@ video {
   
 }
 @media (max-width: 698px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .main_boxHealth h1{
     text-align: center;	
     
@@ -946,6 +1026,18 @@ video {
 }
 }
 @media (max-width: 670px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .main_boxes img {
     margin-right: 20vw;
     
@@ -1006,6 +1098,18 @@ video {
   
 }
 @media (max-width: 634px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .feature_effect p {
     font-size: 2vw;
     margin: 4px 0px;
@@ -1089,6 +1193,18 @@ video {
 }
 }
 @media (max-width: 600px) {
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
   .main_boxHealth h1{
     text-align: center;	
     
@@ -1210,9 +1326,20 @@ video {
     font-size: 30px;
     font-weight: 900;	
     margin: 0px;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
   }
+  .main_box h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
+  }
+  .main_box p {
+    font-size: 16px;
+  }
+
 }
 @media (max-width: 500px){
   /* ===========================BAGIAN BOX====================== */
@@ -1220,32 +1347,38 @@ video {
         margin-right: 90px;
         
     }
-/* BAGIAN DI VAKSINASI */
+
 
 .main_boxHealth h1{
   text-align: center;	
   
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 900;	
   margin: 0px;
   margin-top: 20px;
   
 }
-.main_boxHealth p {
-  
+
+
+.main_boxHealth p {  
   margin: 20px;
   font-size: 3vw;
   
 }
   .main_box h1 {
-    font-size: 3vw;
+    font-size: 30px;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 20px;    
+  }
+  .main_box span{
+    border: none;
   }
   .main_box p {
-    font-size: 2.5vw;
+    font-size: 16px;
   }
+
+
   .main_boxes img {
     width: 100%;
     margin: 0;
@@ -1253,15 +1386,17 @@ video {
   }
   .main_box h3 {
     font-size: 20px;
+    text-align: center;
   }
   .boxesList ul{
     float: right;
-    font-size: 15px;
+    font-size: 18px;
   }
   .boxesList li{
     float: right;
     width: 100%;
-    font-size: 10px;        
+    
+    font-size: 14px;        
   }
   .cover_Bdy {
     margin-top: 190px;
