@@ -17,7 +17,7 @@
 .box-articles, h1 p {
     padding-left: 2vw;
     padding-top: 14vw;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
 }
 
 .box-articles h1{
@@ -87,7 +87,7 @@
 
 /* =============== MAIN BODY ================= */
 .body {
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin: 0;
     background: #fff;
@@ -109,7 +109,7 @@
     font-size: 46px;
     margin-bottom: 50px;
     font-weight: bold;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
 
@@ -118,7 +118,7 @@
     font-weight: bold;
     margin-bottom: 25px;
     
-    font-family: "Quicksand", sans-serif;
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
   

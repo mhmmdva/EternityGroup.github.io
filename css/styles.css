@@ -5,6 +5,7 @@
 	text-decoration: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Cabin&family=Josefin+Sans&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Quicksand:wght@500&family=Raleway:wght@600&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@600&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 html, body, div, span, applet, object, iframe,
@@ -76,7 +77,7 @@ font-family: 'Varela Round', sans-serif;
 
 /* BAGIAN CSS */
 body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
@@ -159,7 +160,7 @@ body{
 
 .feature_title {
 	position: absolute;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 	bottom: 0;
 	margin: 5px 10px;
@@ -190,7 +191,7 @@ body{
 
 .feature_title h1{
 	font-size: 28px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 }
 
@@ -395,7 +396,7 @@ body{
 
 .feature_effect {
 	position: absolute;
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	bottom: 0;
 	margin: 5px 10px;
 	color: rgb(255, 255, 255);	
@@ -434,7 +435,7 @@ body{
 	font-size: 17px;
 	margin: 5px;
 	padding-top: 16px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .menu_grid li{
@@ -459,7 +460,7 @@ body{
 	width: auto;
 	font-size: 20px;
 	font-weight: bolder;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	padding-bottom: 5px;
 
@@ -472,7 +473,7 @@ body{
 	width: auto;
 	font-size: 20px;
 	font-weight: bolder;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	padding-bottom: 5px;
 
@@ -486,7 +487,7 @@ body{
 	width: auto;
 	font-size: 20px;
 	font-weight: bolder;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	padding-bottom: 5px;
 
@@ -530,7 +531,7 @@ body{
     text-align: center;
 	font-weight: bold;
 	font-size: 20px;
-	font-family: "Raleway", sans-serif ;
+	font-family: "Roboto", sans-serif ;
 }
 img#flag {
 	
@@ -595,14 +596,14 @@ img#flag {
     font-size: 15px;
     text-align: center;
     font-weight: bold;
-		font-family: "Raleway", sans-serif ;
+		font-family: "Roboto", sans-serif ;
 }
 .card span {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 25px;
-	font-family: "Raleway", sans-serif ;
+	font-family: "Roboto", sans-serif ;
 }
 .card i {
     font-size: 1rem;
@@ -630,7 +631,7 @@ img#flag {
 
 .health_txt h1{
 	font-size: 3vw;
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	position: relative;
 	font-weight: 900 ;
 	width: 400px;
@@ -640,7 +641,7 @@ img#flag {
 	text-align: center;
 }
 .health_txt span{	
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100 ;
 }
 
@@ -698,7 +699,7 @@ img#flag {
 	filter: grayscale(100%);
 }
 .slider-card, b {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: bolder;
 }
 .columns {
@@ -713,7 +714,7 @@ img#flag {
 .columns h1 {
 	font-size: 100px;
 	font-weight: 900;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
@@ -730,20 +731,20 @@ img#flag {
 .vaksinbdy h2 {
 	font-size: 4vw;
 	font-weight: bolder;
-	font-family: Arial, Helvetica, sans-serif;	
+	font-family: 'Roboto', sans-serif;	
 	margin: 0;
 	
 	
 }
 .vaksinbdy p {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 	
 	
 }
 .vaksintxt2 h2 {
 	font-size: 3vw;
 	font-weight: bolder;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: rgb(0, 0, 0);
 	margin-bottom: 20px;
 
@@ -752,7 +753,7 @@ img#flag {
 
 .vaksintxt2 {
 	display: block;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 	margin-bottom: 100px;
 	margin-left: 25%;
 	text-align: center;
@@ -790,7 +791,7 @@ img#flag {
 .main_boxHealth h1{
 	text-align: center;	
 	color: #030407;
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	font-size: 2vw;
 	font-weight: 900;	
@@ -800,7 +801,7 @@ img#flag {
 .main_boxHealth p {
 	text-align: center;
 	margin: 20px;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 .main_boxHealth span {
 	border-bottom: 4px solid rgb(255, 255, 255);
@@ -824,7 +825,7 @@ img#flag {
 .main_box h1{
 	text-align: center;	
 	color: #030407;
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	text-transform: uppercase;
 	font-size: 2vw;
 	font-weight: 900;	
@@ -834,7 +835,7 @@ img#flag {
 .main_box p {
 	text-align: center;
 	margin: 20px;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 .main_box span {
 	border-bottom: 4px solid rgb(255, 255, 255);
@@ -849,7 +850,7 @@ img#flag {
 	margin: 20px;
 }
 .main_boxes h3 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 	margin-left: 26px;
 }
@@ -857,7 +858,7 @@ img#flag {
 	
 	margin-left: 5%;
 	margin-top: 10px;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 }
 .boxesList span {
@@ -891,7 +892,7 @@ img#flag {
 .boxesHome1 h1 {
 	color: white;
 	font-size: 2.2vw;
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 	text-align: center;
 	margin-top: 20px;
@@ -899,7 +900,7 @@ img#flag {
 .boxesHome1 p {
 	
 	font-size: 1vw;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 600;
 	text-align: left;
 	margin: 25px;
@@ -918,7 +919,7 @@ img#flag {
 .boxesHome2 p {
 	
 	font-size: 1vw;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 600;
 	text-align: left;
 	margin: 25px;
@@ -928,7 +929,7 @@ img#flag {
 .boxesHome2 h1 {
 	color: white;
 	font-size: 2.2vw;
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 	text-align: center;
 	margin-top: 20px;
@@ -983,7 +984,7 @@ footer{
 	text-transform: capitalize;
 	line-height: 3rem;
 	font-size: 1.8rem;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .footer-content p{
 	margin: 10px auto;
@@ -991,11 +992,11 @@ footer{
 	font-size: 14px;
 	max-width: 500px;
 	text-transform: lowercase;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .footer-content span{
 	font-size: 1vw;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #2FA9FB;
 }
 .socials{
