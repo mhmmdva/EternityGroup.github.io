@@ -869,7 +869,7 @@ img#flag {
 	
 }
 .boxesHome1 {
-	width: 45%;
+	width: 100%;
 	background-color: #b3daff;
 	border-radius: 25px;	
 	height: auto;
@@ -893,10 +893,11 @@ img#flag {
 }
 
 .boxesHome2 {
-	width: 45%;
+	width: 100%;
 	background-color: #b3daff;
 	border-radius: 25px;	
 	height: auto;
+	float: right;
 	
 }
 
@@ -922,7 +923,7 @@ img#flag {
 .boxesHome3{
 	
 	position: absolute;
-	
+	float: left;
 	width: 100%;
 	
 }
@@ -1014,5 +1015,6 @@ footer{
   opacity: .4;
   font-weight: 200;
 }
+
 
 
