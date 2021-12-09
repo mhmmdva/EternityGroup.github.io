@@ -399,7 +399,7 @@ body{
 }
 
 .feature_effect h1{
-	font-size: 11px;
+	font-size: 13px;
 	text-align: left;
 	width: 100%;
 	font-weight: bolder;
@@ -858,7 +858,7 @@ img#flag {
 	border-bottom: none;
 }
 .main_boxes ul li {
-	margin-left: 30px;
+	margin-left: 20px;
 	font-weight: 500;
 }
 
