@@ -203,7 +203,7 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 62px 55px 90px 55px;
-  background-image: linear-gradient( #2cb2ff 5%, #ececec 74%);
+  background-image: linear-gradient( #2cb2ff 5%, #ececec 55%);
     animation: spin 1.5s infinite linear;
 }
 
@@ -341,7 +341,7 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover {
-  background-image: linear-gradient(147deg, #2cb2ff 0%, #c4c4c4 74%);
+  background-image: linear-gradient(147deg, #2cb2ff 10%, #c4c4c4 74%);
   transition: 0.8s;
 }
 

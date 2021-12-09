@@ -115,6 +115,16 @@ video {
     margin: 1px 0px;
     text-align: left;
   }
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
+  }
 
   .feature_effect h1 {
     font-size: 10px;
@@ -171,6 +181,16 @@ video {
   }
   .health_txt img {
     width: 50px;
+  }
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
   }
   
 }
@@ -243,9 +263,18 @@ video {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 988px) {
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
+  }
   .vaksintxt2 {
-    display: flexbox;
-    font-family: "Roboto", sans-serif;
+    display: flexbox;    
     margin-bottom: 190px;
     margin-left: 125px;
     margin-top: 50px;
@@ -342,13 +371,22 @@ video {
 /* khusus contact */
 @media (max-width: 900px) {
   .vaksintxt2 {
-    display: flexbox;
-    font-family: "Roboto", sans-serif;
+    display: flexbox;    
     margin-bottom: 190px;
     margin-left: 150px;
     margin-top: 50px;
     text-align: center;
     width: auto;
+  }
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
   }
   .feature_effect p {
     font-size: 1vw;
@@ -397,7 +435,7 @@ video {
     font-size: 30px;
     font-weight: 800;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    
   }
 
   .health_txt h1 {
@@ -509,6 +547,16 @@ video {
 
     height: auto;
   }
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
+  }
 }
 @media (max-width: 796px) {
   .main_box h1 {
@@ -518,6 +566,13 @@ video {
   }
   .main_box p {
     font-size: 2vw;
+  }
+  .main_boxHealth h1 {
+    font-size: 30px;
+  }
+  .main_boxHealth p {
+    font-size: 16px;
+    text-align: justify;
   }
   .cover .feature:nth-child(1) p{	
     font-size: 2vw;
@@ -585,7 +640,7 @@ video {
   }
   .vaksintxt2 {
     display: flexbox;
-    font-family: "Roboto", sans-serif;
+    
     margin-bottom: 190px;
     margin-left: 80px;
     margin-top: 50px;
@@ -797,19 +852,28 @@ video {
   
 }
 @media (max-width: 698px) {
- 
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
+  }
   .main_boxes img {
     margin-right: 20vw;
     
   }
   .footer-content span{
     font-size: 3vw;
-    font-family: 'Roboto', sans-serif;
+    
     color: #2FA9FB;
   }
   .vaksintxt2 {
     display: flexbox;
-    font-family: "Roboto", sans-serif;
+    
     margin-bottom: 190px;
     margin-left: 100px;
     margin-top: 50px;
@@ -888,12 +952,12 @@ video {
   }
   .footer-content span{
     font-size: 2.5vw;
-    font-family: 'Roboto', sans-serif;
+    
     color: #2FA9FB;
   }
   .vaksintxt2 {
     display: flexbox;
-    font-family: "Roboto", sans-serif;
+    
     margin-bottom: 190px;
     margin-left: 110px;
     margin-top: 50px;
@@ -1027,19 +1091,18 @@ video {
 @media (max-width: 600px) {
   .main_boxHealth h1{
     text-align: center;	
-    color: #030407;
-    font-family: "Roboto", sans-serif;
+    
     text-transform: capitalize;
-    font-size: 3vw;
+    font-size: 30px;
     font-weight: 900;	
     margin: 20px;
     
   }
   .main_boxHealth p {
-    text-align: center;
+    
     margin: 20px;
     font-size: 3vw;
-    font-family: "Roboto", sans-serif;
+    
   }
   .health_txt h1 {
     font-size: 25px;
@@ -1052,7 +1115,7 @@ video {
   }
   .footer-content span{
     font-size: 3vw;
-    font-family: 'Roboto', sans-serif;
+    
     color: #2FA9FB;
   }
   .vaksintxt2 {
@@ -1135,7 +1198,21 @@ video {
     margin: 0;
     margin-right: 20px;
   }
+
   
+}
+
+@media (max-width: 576px){
+  .main_boxHealth h1{
+    text-align: center;	
+    
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;	
+    margin: 0px;
+    margin-top: 20px;
+    
+  }
 }
 @media (max-width: 500px){
   /* ===========================BAGIAN BOX====================== */
@@ -1146,20 +1223,20 @@ video {
 /* BAGIAN DI VAKSINASI */
 
 .main_boxHealth h1{
-	text-align: center;	
-	color: #030407;
-	font-family: "Roboto", sans-serif;
-	text-transform: capitalize;
-	font-size: 15px;
-	font-weight: 900;	
-	margin: 8px;
-	
+  text-align: center;	
+  
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 900;	
+  margin: 0px;
+  margin-top: 20px;
+  
 }
 .main_boxHealth p {
-	text-align: center;
-	margin: 20px;
+  
+  margin: 20px;
   font-size: 3vw;
-	font-family: "Roboto", sans-serif;
+  
 }
   .main_box h1 {
     font-size: 3vw;
@@ -1202,17 +1279,21 @@ video {
 
   .vaksintxt2 {
     display: flexbox;
-    font-family: "Roboto", sans-serif;
+    
     margin-bottom: 190px;
     margin-left: 1px;
     margin-top: 100px;
     text-align: center;
     width: 100%;
   }
+  .vaksintxt2 h2 {
+    font-size: 26px;
+  }
+
   .column-txt {
     position: relative;
     font-weight: bolder;
-    font-family: "Roboto", sans-serif;
+    
     bottom: 500px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px black;

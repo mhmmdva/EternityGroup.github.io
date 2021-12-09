@@ -52,19 +52,11 @@ header {
     margin-left: 80px;
     display: flex;
   }
-  .content .logo a{
-    color: rgb(31, 26, 26);
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  .content .logo span{
-    color: #0093e9;
-    font-size: 14px;
-    font-weight: 100;
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    .content img {
+      margin-left: 15px;
+    }
+    .content .logo {
+      margin: 0;
     }
   .content .links li{
     list-style: none;
