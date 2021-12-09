@@ -190,6 +190,8 @@ body{
 
 .feature_title h1{
 	font-size: 28px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
 }
 
 .feature_title p {
@@ -310,6 +312,7 @@ body{
   .grid-item {	
 	text-align: center;
 	padding: 0px;
+	
   }
   
   .item1 {
@@ -392,7 +395,7 @@ body{
 
 .feature_effect {
 	position: absolute;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Raleway", sans-serif;
 	bottom: 0;
 	margin: 5px 10px;
 	color: rgb(255, 255, 255);	
@@ -815,6 +818,9 @@ img#flag {
 	height: auto;
 }
 
+.mainBox1 {
+	display: flex;
+}
 .main_box h1{
 	text-align: center;	
 	color: #030407;
