@@ -268,14 +268,13 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
   }
   .main_boxes img {
-    margin-right: 140px;
+    margin-right: 260px;
+    transform: translateX(100px);
   }
   .main_boxHealth h1{
     text-align: center;	
@@ -383,21 +382,19 @@ video {
 }
 
 /* khusus contact */
+
 @media (max-width: 900px) {
   .main_box h1 {
     font-size: 30px;
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
+    display: block;
   }
-  .main_boxes img {
-    margin-right: 140px;
-  }
+
   .vaksintxt2 {
     display: flexbox;    
     margin-bottom: 190px;
@@ -571,9 +568,7 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
   }
@@ -604,13 +599,14 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
   }
-
+  .main_boxes img {
+    margin-right: 20px;
+    transform: translateZ(120px);
+  }
   .main_boxHealth h1 {
     font-size: 30px;
   }
@@ -740,9 +736,8 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+  
+
   .main_box p {
     font-size: 16px;
   }
@@ -868,9 +863,8 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+  
+
   .main_box p {
     font-size: 16px;
   }
@@ -925,13 +919,14 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
   }
-
+  .main_boxes img {
+    margin-right: 20px;
+    transform: translateZ(130px);
+  }
   .main_boxHealth h1{
     text-align: center;	
     
@@ -942,10 +937,7 @@ video {
     margin-top: 20px;
     
   }
-  .main_boxes img {
-    margin-right: 20vw;
-    
-  }
+
   .footer-content span{
     font-size: 3vw;
     
@@ -1031,9 +1023,7 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
   }
@@ -1103,11 +1093,13 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
+  }
+  .main_boxes img {
+    margin-right: 20px;
+    transform: translateZ(130px);
   }
 
   .feature_effect p {
@@ -1198,9 +1190,8 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+  
+
   .main_box p {
     font-size: 16px;
   }
@@ -1333,9 +1324,7 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+  
   .main_box p {
     font-size: 16px;
   }
@@ -1371,9 +1360,7 @@ video {
     margin: 0;
     margin-top: 20px;    
   }
-  .main_box span{
-    border: none;
-  }
+
   .main_box p {
     font-size: 16px;
   }

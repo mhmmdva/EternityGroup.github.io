@@ -697,12 +697,13 @@ img#flag {
 
 .columns h1 {
 	position: absolute;
-	font-size: 56px;
+	font-size: 76px;
 	font-weight: bold;
 	bottom: 90px;
+	left: 10px;
 	text-align: center;
 	margin-left: 100px;
-	color: rgba(255, 255, 255, 0.904);
+	color: rgb(255, 255, 255);
 	text-shadow: 0 1px black;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -806,7 +807,7 @@ img#flag {
 .main_box {
 	background-color: #b3daff;
 	border-radius: 25px;
-	margin: 80px 20px;
+	margin: 80px 0px;
 	width: 100%;
 	height: auto;
 }

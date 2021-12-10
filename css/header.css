@@ -31,29 +31,29 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
-    top: 0;
-   
-  
+    top: 0;    
+    height: 80px;
   }
   .wrapper nav{
     position: relative;
     display: flex;
     max-width: calc(100% - 200px);
-    margin: 0 auto;
+    margin: 6px auto;
     height: 70px;
     align-items: center;
     justify-content: space-between;
+
   }
   nav .content{
     display: flex;
     align-items: center;
   }
-  nav .content .links{
-    margin-left: 80px;
+  nav .content .links{    
     display: flex;
   }
     .content img {
-      margin-left: 15px;
+       width: 100%;
+       max-width: 150px;
     }
     .content .logo {
       margin: 0;
