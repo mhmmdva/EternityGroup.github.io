@@ -1332,11 +1332,11 @@ video {
 }
 @media (max-width: 500px){
   /* ===========================BAGIAN BOX====================== */
-    .columns h1 {
-        margin-right: 90px;
-        
-    }
-
+.row h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
 
 .main_boxHealth h1{
   text-align: center;	
