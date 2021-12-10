@@ -695,16 +695,10 @@ img#flag {
 	margin-bottom: 90px;
 } 
 
-.columns h1 {
-	position: absolute;
-	font-size: 76px;
-	font-weight: bold;
-	bottom: 90px;
-	left: 10px;
+.row h1 {
 	text-align: center;
-	margin-left: 100px;
-	color: rgb(255, 255, 255);
-	text-shadow: 0 1px black;
+	font-weight: bolder;
+	color: black;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
